@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*css file*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
+
+.text-animate{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	height: 55px;
+}
+
+.text-animate ul{
+	-webkit-animation: text-change 33s infinite;
+	animation: text-change 33s infinite;
+}
+
+@-ms-keyframes text-change {
+	0%{margin-top: 0px; opacity: 0;}/*texto1*/
+	1%{margin-top: 0px; opacity: 1;}
+	14%{margin-top: 0px; opacity: 1;}
+	15%{margin-top: 0px; opacity: 0;}
+	16%{margin-top: -55px; opacity: 0;}/*texto2*/
+	17%{margin-top: -55px; opacity: 1;}
+	33%{margin-top: -55px; opacity: 1;}
+	34%{margin-top: -55px; opacity: 0;}
+	35%{margin-top: -110px; opacity: 0;}/*texto3*/
+	36%{margin-top: -110px; opacity: 1;}
+	53%{margin-top: -110px; opacity: 1;}
+	54%{margin-top: -110px; opacity: 0;}
+	55%{margin-top: -165px; opacity:0;}/*texto4*/
+	56%{margin-top: -165px; opacity:1;}
+	68%{margin-top: -165px; opacity:1;}
+	69%{margin-top: -165px; opacity:0;}
+	70%{margin-top: -220px; opacity:0;}/*texto5*/
+	71%{margin-top: -220px; opacity:1;}
+	80%{margin-top: -220px; opacity:1;}
+	81%{margin-top: -220px; opacity:0;}
+	82%{margin-top: -275px; opacity:0;}/*texto6*/
+	83%{margin-top: -275px; opacity:1;}
+	99%{margin-top: -275px; opacity:1;}
+	100%{margin-top: -275px; opacity:0;}
+}
+
+@-webkit-keyframes text-change {
+	0%{margin-top: 0px; opacity: 0;}/*texto1*/
+	1%{margin-top: 0px; opacity: 1;}
+	14%{margin-top: 0px; opacity: 1;}
+	15%{margin-top: 0px; opacity: 0;}
+	16%{margin-top: -55px; opacity: 0;}/*texto2*/
+	17%{margin-top: -55px; opacity: 1;}
+	33%{margin-top: -55px; opacity: 1;}
+	34%{margin-top: -55px; opacity: 0;}
+	35%{margin-top: -110px; opacity: 0;}/*texto3*/
+	36%{margin-top: -110px; opacity: 1;}
+	53%{margin-top: -110px; opacity: 1;}
+	54%{margin-top: -110px; opacity: 0;}
+	55%{margin-top: -165px; opacity:0;}/*texto4*/
+	56%{margin-top: -165px; opacity:1;}
+	68%{margin-top: -165px; opacity:1;}
+	69%{margin-top: -165px; opacity:0;}
+	70%{margin-top: -220px; opacity:0;}/*texto5*/
+	71%{margin-top: -220px; opacity:1;}
+	80%{margin-top: -220px; opacity:1;}
+	81%{margin-top: -220px; opacity:0;}
+	82%{margin-top: -275px; opacity:0;}/*texto6*/
+	83%{margin-top: -275px; opacity:1;}
+	99%{margin-top: -275px; opacity:1;}
+	100%{margin-top: -275px; opacity:0;}
+}
+
+@keyframes text-change {
+	0%{margin-top: 0px; opacity: 0;}/*texto1*/
+	1%{margin-top: 0px; opacity: 1;}
+	14%{margin-top: 0px; opacity: 1;}
+	15%{margin-top: 0px; opacity: 0;}
+	16%{margin-top: -55px; opacity: 0;}/*texto2*/
+	17%{margin-top: -55px; opacity: 1;}
+	33%{margin-top: -55px; opacity: 1;}
+	34%{margin-top: -55px; opacity: 0;}
+	35%{margin-top: -110px; opacity: 0;}/*texto3*/
+	36%{margin-top: -110px; opacity: 1;}
+	53%{margin-top: -110px; opacity: 1;}
+	54%{margin-top: -110px; opacity: 0;}
+	55%{margin-top: -165px; opacity:0;}/*texto4*/
+	56%{margin-top: -165px; opacity:1;}
+	68%{margin-top: -165px; opacity:1;}
+	69%{margin-top: -165px; opacity:0;}
+	70%{margin-top: -220px; opacity:0;}/*texto5*/
+	71%{margin-top: -220px; opacity:1;}
+	80%{margin-top: -220px; opacity:1;}
+	81%{margin-top: -220px; opacity:0;}
+	82%{margin-top: -275px; opacity:0;}/*texto6*/
+	83%{margin-top: -275px; opacity:1;}
+	99%{margin-top: -275px; opacity:1;}
+	100%{margin-top: -275px; opacity:0;}
+}
+
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes hvr-pulse-grow {
+  to {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
