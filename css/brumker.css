@@ -227,11 +227,14 @@ input[type=text], input[type=email], input[type=tel]{
 .proyectos-items{
   display: block;
   margin-bottom: 0px;
+  box-sizing: border-box;
   height: 180px;
   padding: 0px;
   width: auto;
   overflow: hidden;
 }
+
+
 
 /*.proyectos-items a{
   display: block;
