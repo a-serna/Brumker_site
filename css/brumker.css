@@ -219,12 +219,40 @@ input[type=text], input[type=email], input[type=tel]{
 
 .proyectos-selectores:hover{color: #0EAE96;}
 
-.block-items{
+.proyectos-items{
+  display: block;
   margin-bottom: 0px;
   height: 180px;
   padding: 0px;
   width: auto;
   overflow: hidden;
+}
+
+.block-items a{
+	position: relative;
+  width: auto;
+	height: 180px;
+  padding: 0px;
+}
+
+.block-items a span{
+	display: block;
+	background: rgba(0, 0, 0, 0.5) !important;
+	color: #fff;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 120px;
+	overflow: hidden;
+	opacity: 0;
+	text-align: center;
+}
+
+.block-items a:hover span{
+	height: auto;
+  width: 100%;
+	opacity: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 .tile {
@@ -244,7 +272,7 @@ input[type=text], input[type=email], input[type=tel]{
 .tile img {
   /*max-width: 100%;
   width: 100%;*/
-  height: auto;
+  /*height: auto;*/
   margin-bottom: 0px;
 }
 
