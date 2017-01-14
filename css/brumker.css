@@ -81,38 +81,28 @@ section{
   padding: 0px;
 }
 
-.input-field{margin-top: 0px;}
-
-.formulario_contacto .input-field:nth-child(1){
-  background-color: #0AFAD8;
-  padding-left: 20px;
+.input-field{
+  margin-top: 0px;
+  padding-left: 210px;
   padding-right: 20px;
   padding-top: 8px;
   padding-bottom: 12px;
+}
+
+.formulario_contacto .input-field:nth-child(1){
+  background-color: #0AFAD8;
 }
 
 .formulario_contacto .input-field:nth-child(2){
   background-color: #08BBA1;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 8px;
-  padding-bottom: 12px;
 }
 
 .formulario_contacto .input-field:nth-child(3){
   background-color: #046E5F;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 8px;
-  padding-bottom: 12px;
 }
 
 .formulario_contacto .input-field:nth-child(4){
   background-color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 8px;
-  padding-bottom: 12px;
 }
 
 .area-mensaje{
@@ -125,7 +115,7 @@ section{
 
 .input-field label{
   color: white;
-  left: 20px;
+  padding-left: 210px;
 }
 
 .input-field .btn{
@@ -139,6 +129,7 @@ input[type=text], input[type=email], input[type=tel]{
 
 .envio_contacto{
   padding-bottom: 5px;
+  padding-left: 210px;
 }
 
 /*lado de la info*/
