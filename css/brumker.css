@@ -245,22 +245,34 @@ input[type=text], input[type=email], input[type=tel]{
 
 .block-items a span{
 	display: block;
-	background: rgba(0, 0, 0, 0.5) !important;
-	color: #fff;
+	background: rgba(95, 250, 227, 0.3) !important;
+	color: #656565;
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
-	width: 120px;
+	width: 0px;
 	overflow: hidden;
 	opacity: 0;
 	text-align: center;
 }
 
 .block-items a:hover span{
-	height: auto;
+  padding-top: 50px;
+	height: 180px;
   width: 100%;
 	opacity: 1;
   transition: all 0.3s ease-in-out;
+}
+
+.more{
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  color: #0EAE96;
+  text-align: center;
+  border-radius: 50%;
+  margin: 10px auto 10px auto;
+  line-height: 30px !important;
 }
 
 .tile {
