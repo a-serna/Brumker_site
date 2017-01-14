@@ -59,16 +59,14 @@ section{
 
 /*ESTILO DE CONTACTO HTML*/
 .contacto{
-  margin-top: 35px;
+  margin: 35px 0px 0px 0px;
   background-color: white;
-  width: 100%;
-  color: #656565;
-  display: flex;
 }
 
 /*lado del formulario*/
 .side-left{
-  flex: 1.5;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .mensaje{
@@ -134,32 +132,29 @@ input[type=text], input[type=email], input[type=tel]{
 
 /*lado de la info*/
 .side-center{
-  flex: 0.5;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .logo_contacto{
   height: 200px;
   background-color: #fefefe;
-  padding: 0 50px 0px 50px;
 }
 
 .info_contacto{
   height: 200px;
   background-color: #006E5F;
-  padding: 5px 15px 5px 30px;
 }
 
 .redes_contacto{
   height: 200px;
   background-color: #00BBA0;
-  padding: 5px 48px 5px 48px;
 }
 
 /*lado del mapa*/
 .side_map{
   height: 600px;
   background-color: #006E5F;
-  flex: 1;
 }
 
 /*PROYECTOS.HTML MAQUETACIÓN*/
