@@ -49,50 +49,15 @@ section{
   height: 700px;
 }
 
-.web{
-  background: url(../assets/imagenes/web_background.jpg);
+.service{
   background-color: rgba(14, 173, 149, 0.5);
   /*height: 300px;*/
   height: auto;
-  width: 20%;
+  width: 25%;
   float: left;
   overflow: hidden;
   cursor: pointer;
   transition: opacity .3s ease .2s;
-}
-
-/*.web:hover{
-  width: 25%;
-  opacity: 1;
-  transition: opacity .3s ease .2s;
-}*/
-
-.text_service{
-  opacity: 1 !important;
-}
-
-.vr{
-  background-image: url(../assets/imagenes/web_background.jpg);
-  background-color: #233A48;
-  height: 300px;
-  width: 20%;
-  float: left;
-}
-
-.ar{
-  background-image: url(../assets/imagenes/web_background.jpg);
-  background-color: #299AE1;
-  height: 300px;
-  width: 20%;
-  float: left;
-}
-
-.model{
-  background-image: url(../assets/imagenes/web_background.jpg);
-  background-color: #B84F3D;
-  height: 300px;
-  width: 20%;
-  float: left;
 }
 
 /*ESTILO DE CONTACTO HTML*/
