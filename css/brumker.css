@@ -136,20 +136,9 @@ input[type=text], input[type=email], input[type=tel]{
   padding-right: 0px !important;
 }
 
-.logo_contacto{
-  height: 200px;
-  background-color: #fefefe;
-}
-
-.info_contacto{
-  height: 200px;
-  background-color: #006E5F;
-}
-
-.redes_contacto{
-  height: 200px;
-  background-color: #00BBA0;
-}
+.logo_contacto{height: 200px; background-color: #fefefe;}
+.info_contacto{height: 200px; background-color: #006E5F;}
+.redes_contacto{height: 200px; background-color: #00BBA0;}
 
 /*lado del mapa*/
 .side_map{
