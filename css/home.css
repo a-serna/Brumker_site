@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/*css file*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
+
+section{
+  margin-top: 13% !important;
+  margin-bottom: 5% !important;
+}
+
+#arrow{
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+
+#nosotros{
+  background-color: #0EAE96;
+  margin-bottom: 0px;
+}
+
+/*sección servicios del index*/
+.service-blocks{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.service{
+  height: 700px;
+  padding: 0px !important;
+  float: left;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.service:nth-child(1){
+  background: url(../assets/imagenes/vr_img.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.service:nth-child(2){
+  background: url(../assets/imagenes/ar_img.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.service:nth-child(3){
+  background: url(../assets/imagenes/web_img.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.service:nth-child(4){
+  background: url(../assets/imagenes/3d_img.jpg) center no-repeat;
+  background-size: cover;
+}
+
+
+/*responsive*/
+@media (max-width: 1024px){
+  #arrow{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .service{
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px){
+  section{
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+  }
+
+  #arrow{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 600px){
+  .service{
+    height: 250px;
+  }
+
+  .service:nth-child(1){
+    background-position: 0px -320px;
+  }
+
+  .service:nth-child(2){
+    background-position: 0px -570px;
+  }
+
+  .service:nth-child(4){
+    background-position: 0px -460px;
+  }
+}

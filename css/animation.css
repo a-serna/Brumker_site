@@ -130,3 +130,10 @@
   -webkit-animation-direction: alternate;
   animation-direction: alternate;
 }
+
+@media (max-width: 768px){
+	.text-animate{
+		height: 65px;
+		width: 90%;
+	}
+}
