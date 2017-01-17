@@ -63,19 +63,23 @@ section{
 }
 
 .service:nth-child(1){
-  background: url(../assets/imagenes/vr_img.jpg) center;
+  background: url(../assets/imagenes/vr_img.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .service:nth-child(2){
-  background: url(../assets/imagenes/ar_img.jpg) center;
+  background: url(../assets/imagenes/ar_img.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .service:nth-child(3){
-  background: url(../assets/imagenes/web_img.jpg) center;
+  background: url(../assets/imagenes/web_img.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .service:nth-child(4){
-  background: url(../assets/imagenes/3d_img.jpg) center;
+  background: url(../assets/imagenes/3d_img.jpg) center no-repeat;
+  background-size: cover;
 }
 
 /*ESTILO DE CONTACTO HTML*/
