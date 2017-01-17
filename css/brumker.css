@@ -55,10 +55,27 @@ section{
 }
 
 .service{
-  background-color: rgba(14, 173, 149, 0.5);
+  height: 700px;
+  padding: 0px !important;
   float: left;
   cursor: pointer;
-  transition: opacity .3s ease .2s;
+  overflow: hidden;
+}
+
+.service:nth-child(1){
+  background: url(../assets/imagenes/vr_img.jpg) center;
+}
+
+.service:nth-child(2){
+  background: url(../assets/imagenes/ar_img.jpg) center;
+}
+
+.service:nth-child(3){
+  background: url(../assets/imagenes/web_img.jpg) center;
+}
+
+.service:nth-child(4){
+  background: url(../assets/imagenes/3d_img.jpg) center;
 }
 
 /*ESTILO DE CONTACTO HTML*/
