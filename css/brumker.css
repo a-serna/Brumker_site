@@ -115,7 +115,7 @@ footer{
 }
 
 .new{
-  top: 280px;
+  bottom: -280px;
   position: relative;
 }
 
@@ -126,7 +126,7 @@ footer{
 }
 
 .social{
-  top: 280px;
+  bottom: -280px;
   left: 85px;
   position: relative;
   padding: 0 0px !important;
@@ -222,6 +222,14 @@ h4{
   font-style: italic;
 }
 
+h5{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 1.8em;
+}
+
+p{
+  font-size: 1em;
+}
 /*HOVERS*/
 
 /* Push */
@@ -280,18 +288,50 @@ h4{
 }
 
 /*responsive*/
-@media (max-width: 1024px){
+@media only screen and (max-width: 1024px){
   .responsive-img{
     width: 80%;
     height: auto;
   }
+
+  .new{
+    bottom: -200px;
+  }
+
+  .social{
+    bottom: -200px;
+  }
 }
 
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
+  .new{
+    bottom: -150px;
+  }
+
+  .social{
+    bottom: -150px;
+  }
 }
 
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
   .icon-modify{
     margin-left: 0px !important;
+  }
+  .new{
+    bottom: -100px;
+  }
+
+  .social{
+    bottom: -100px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .new{
+    bottom: -50px;
+  }
+
+  .social{
+    bottom: -50px;
   }
 }
