@@ -70,25 +70,25 @@
         </div>
         <!--formulario-->
         <div class="formulario_contacto">
-          <form class="" action="index.html" method="post">
+          <form action="index.php" method="post">
             <div class="input-field active" >
-              <input id="first_name" type="text" class="validate">
+              <input name="first_name" id="first_name" type="text" class="validate">
               <label for="first_name" data-error="incompleto" data-sucess="ok">Nombre</label>
             </div>
             <div class="input-field active">
-              <input id="email" type="email" class="validate">
+              <input name="email" id="email" type="email" class="validate">
               <label for="email" data-error="incompleto" data-sucess="ok">Email</label>
             </div>
             <div class="input-field active">
-              <input id="tel" type="tel">
+              <input name="tel" id="tel" type="tel">
               <label for="tel">Teléfono ó celular</label>
             </div>
             <div class="input-field active">
-              <textarea id="textarea1" class="materialize-textarea" length="400"></textarea>
-              <label class="area-mensaje" for="textarea1">Mensaje</label>
+              <textarea name="textarea1" id="textarea1" class="materialize-textarea" length="400"></textarea>
+              <label for="textarea1">Mensaje</label>
             </div>
             <div class="center-align envio_contacto">
-              <input type="submit" name="enviar" value="Enviar" class="waves-effect waves-light btn">
+              <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
               <h3>Al enviar estoy aceptando los <a href="terminos-y-condiciones.html">términos y condiciones</a></h3>
             </div>
           </form>
