@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="We create your project with the best design quality, contact us
+    and speak about your ideas. Brumker Studios">
+    <meta name="google-site-verification" content="APIKF3EMl2gmorArETvw63hEmqKi0UwR3UFAwKve-rM"/>
+    <meta name="keywords" content="Design studio, contact, new projects.">
+    <meta name=”robots” content=”index, follow”>
+    <meta name="author" content="Brumker">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact us | Brumker Studios</title>
+    <!-- cdn jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/brumker.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <!-- <link rel="stylesheet" href="./css/animation.css"> -->
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- js -->
+    <script src="../js/brumker.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <header class="container transparent">
+      <ul id="slide-out" class="side-nav">
+        <li><div class="userView menu_oculto">
+          <a href="index.html"><img class="circle" src="../assets/imagenes/bk_icon.png"></a>
+        </div></li>
+        <li><a href="index.html#nosotros"><i class="material-icons hvr-push"><img src="../assets/imagenes/nosotros.svg" class="icons_menu" alt="nosotros_icon" title="nosotros_icon"></i>About us</a></li>
+        <li><a class='dropdown-button' href='#' data-activates='dropdown1'><i class="material-icons hvr-push">web</i>What we do</a></li>
+        <!-- Dropdown Structure -->
+        <div id='dropdown1' class='dropdown-content'>
+          <li><a href="vr.html"><i class="material-icons icon-modify hvr-push"><img src="../assets/imagenes/vr.svg" class="icons_menu" alt="vr_icon" title="vr_icon"></i>Virtual reality</a></li>
+          <div class="divider"></div>
+          <li><a href="ar.html"><i class="material-icons icon-modify hvr-push"><img src="../assets/imagenes/ar.svg" class="icons_menu" alt="ar_icon" title="ar_icon"></i>Augmented reality</a></li>
+          <div class="divider"></div>
+          <li><a href="web.html"><i class="material-icons icon-modify hvr-push"><img src="../assets/imagenes/web.svg" class="icons_menu" alt="web_icon" title="web_icon"></i>Web/app</a></li>
+          <div class="divider"></div>
+          <li><a href="3d.html"><i class="material-icons icon-modify hvr-push"><img src="../assets/imagenes/3d.svg" class="icons_menu" alt="3d_icon" title="3d_icon"></i>3D</a></li>
+        </div>
+        <li><a href="proyectos.html"><i class="material-icons hvr-push"><img src="../assets/imagenes/layers.svg" class="icons_menu" alt="proyectos_icon" title="proyectos_icon"></i>our work</a></li>
+        <li><a href="contacto.html"><i class="material-icons hvr-push"><img src="../assets/imagenes/email.svg" class="icons_menu" alt="contacto_icon" title="contacto_icon"></i>Contact us</a></li>
+        <li><div class="divider new"></div></li>
+        <li><a class="subheader social center-align">follow us on</a></li>
+        <li><a class="social" id="fb" target="_blank" href="https://www.facebook.com/brumkerStudios/"></a></li>
+        <li><a class="social" id="insta" target="_blank" href="https://www.instagram.com/brumker.studios/"></a></li>
+        <li><a class="social" id="you" target="_blank" href="https://www.youtube.com/channel/UCVwie1L37KcclACyCh6mKEw"></a></li>
+      </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons menu_burguer">menu</i></a>
+
+      <ul class="right-align" id="languages">
+        <li id="list-language"><a href="../contacto.html"><h1>Es</h1></a></li>
+        <li id="list-language">/</li>
+        <li id="list-language"><a href="contacto.html"><h1>En</h1></a></li>
+      </ul>
+    </header>
+
+    <div class="contacto row">
+
+      <div class="side-left col s12 m12 l7">
+        <div class="mensaje">
+          <div class="valign">
+            <h4 class="right-align">Do you have an idea? a new project? or do you want work with us?</h4>
+            <h4 class="right-align">We'll stay here for answer you.</h4>
+          </div>
+        </div>
+        <!--formulario-->
+        <div class="formulario_contacto">
+          <form action="contacto.php" method="post">
+            <div class="input-field active" >
+              <input name="first_name" id="first_name" type="text" class="validate">
+              <label for="first_name" data-error="incompleto" data-sucess="ok">Name</label>
+            </div>
+            <div class="input-field active">
+              <input name="email" id="email" type="email" class="validate">
+              <label for="email" data-error="incompleto" data-sucess="ok">Email</label>
+            </div>
+            <div class="input-field active">
+              <input name="tel" id="tel" type="tel">
+              <label for="tel">Phone number</label>
+            </div>
+            <div class="input-field active">
+              <textarea name="textarea1" id="textarea1" class="materialize-textarea" length="400"></textarea>
+              <label for="textarea1">Message</label>
+            </div>
+            <div class="center-align envio_contacto">
+              <input type="submit" name="submit" value="Submit" class="waves-effect waves-light btn">
+              <h3>I'm accepting the <a href="../terminos-y-condiciones.html">terms and conditions</a></h3>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="side-center col l2 hide-on-med-and-down">
+        <div class="logo_contacto valign-wrapper container">
+          <img src="../assets/imagenes/isotipo_brumker.png" alt="isotipo-brumker">
+        </div>
+
+        <div class="info_contacto valign-wrapper">
+          <div class="valign container">
+          <h3><i class="material-icons">place</i>Cra 80 #47-52 (Medellín-Colombia)</h3></li>
+          <h3><i class="material-icons">email</i> info@brumker.com</h3></li>
+          <h3><i class="material-icons">smartphone</i> +57 319 2701288</h3></li>
+          </div>
+        </div>
+
+        <div class="redes_contacto valign-wrapper">
+          <div class="container">
+            <a class="hvr-push" id="fb_foot" target="_blank" href="https://www.facebook.com/brumkerStudios/"></a>
+            <a class="hvr-push" id="insta_foot" target="_blank" href="https://www.instagram.com/brumker.studios/"></a>
+            <a class="hvr-push" id="you_foot" target="_blank" href="https://www.youtube.com/channel/UCVwie1L37KcclACyCh6mKEw"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="side_map col l3 hide-on-med-and-down">
+      </div>
+
+    </div>
+
+    <main></main>
+
+    <footer class="hide-on-large-only">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <img class="responsive-img" id="logo_foot" src="../assets/imagenes/brumker_logo_blanco.png" alt="Brumker_logo">
+            <h1 class="center-align white-text">Design for future.</h1>
+          </div>
+          <div class="col l4 s12">
+            <h2 class="white-text">Contact us</h2>
+            <ul>
+              <li><i class="material-icons">email</i> info@brumker.com</li>
+              <li><i class="material-icons">smartphone</i> +57 319 2701288</li>
+              <li><i class="material-icons">place</i> Cra 80 #47-52 (Medellín-Colombia)</li>
+            </ul>
+          </div>
+          <div class="col l2 s12">
+            <h2 class="white-text">follow us on:</h2>
+            <ul>
+              <li><a class="hvr-push" id="fb_foot" target="_blank" href="https://www.facebook.com/brumkerStudios/"></a></li>
+              <li><a class="hvr-push" id="insta_foot" target="_blank" href="https://www.instagram.com/brumker.studios/"></a></li>
+              <li><a class="hvr-push" id="you_foot" target="_blank" href="https://www.youtube.com/channel/UCVwie1L37KcclACyCh6mKEw"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h1><i class="material-icons md-18">copyright</i> 2017 Brumker all right reserved</h1>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h1><a class="white-text" href="../terminos-y-condiciones.html">terms and conditions</a></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  </body>
+</html>
