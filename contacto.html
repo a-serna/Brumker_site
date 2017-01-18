@@ -72,20 +72,20 @@
         <!--formulario-->
         <div class="formulario_contacto">
           <form class="" action="index.html" method="post">
-            <div class="input-field" >
+            <div class="input-field active" >
               <input id="first_name" type="text" class="validate">
-              <label for="first_name">Nombre</label>
+              <label for="first_name" data-error="incompleto" data-sucess="ok">Nombre</label>
             </div>
-            <div class="input-field">
+            <div class="input-field active">
               <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
+              <label for="email" data-error="incompleto" data-sucess="ok">Email</label>
             </div>
-            <div class="input-field">
-              <input id="tel" type="tel" class="validate">
+            <div class="input-field active">
+              <input id="tel" type="tel">
               <label for="tel">Teléfono ó celular</label>
             </div>
-            <div class="input-field">
-              <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <div class="input-field active">
+              <textarea id="textarea1" class="materialize-textarea" length="400"></textarea>
               <label class="area-mensaje" for="textarea1">Mensaje</label>
             </div>
             <div class="center-align envio_contacto">

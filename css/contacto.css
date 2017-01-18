@@ -33,28 +33,28 @@
 }
 
 .formulario_contacto .input-field:nth-child(1){
-  background-color: #64ffda;
+  background-color: #4CE0CC;
 }
 
 .formulario_contacto .input-field:nth-child(2){
-  background-color: #009688;
+  background-color: #069480;
 }
 
 .formulario_contacto .input-field:nth-child(3){
-  background-color: #004d40;
+  background-color: #046154;
 }
 
 .formulario_contacto .input-field:nth-child(4){
   background-color: white;
 }
 
-.area-mensaje{
-  color: #656565 !important;
+textarea.materialize-textarea{
+  color: #656565;
 }
 
-.input-field textarea.materialize-textarea:focus:not([readonly]) + label {
+/*.input-field textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #0eae96 !important;
-}
+}*/
 
 .input-field label{
   color: white;
@@ -70,11 +70,11 @@ input[type=text], input[type=email], input[type=tel]{
   border-bottom: none;
   margin: 0px 0 0px 0px;
 }
-
+/*
 input[type=text]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=tel]:focus:not([readonly]){
   border-bottom: none;
   box-shadow: none;
-}
+}*/
 
 .envio_contacto{
   padding-bottom: 5px;
@@ -88,11 +88,11 @@ input[type=text]:focus:not([readonly]), input[type=email]:focus:not([readonly]),
 }
 
 .logo_contacto{height: 200px;}
-.info_contacto{height: 200px; background-color: #004d40;}
-.redes_contacto{height: 200px; background-color: #009688;}
+.info_contacto{height: 200px; background-color: #046154;}
+.redes_contacto{height: 200px; background-color: #069480;}
 
 /*lado del mapa*/
 .side_map{
   height: 600px;
-  background-color: #004d40;
+  background-color: #046154;
 }
