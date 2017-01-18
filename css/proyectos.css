@@ -42,8 +42,7 @@
 
 .block-items a span{
 	display: block;
-	background: rgba(95, 250, 227, 0.3) !important;
-	color: #656565;
+	background: rgba(35, 58, 72, 0.5) !important;
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
@@ -54,7 +53,7 @@
 }
 
 .block-items a:hover span{
-  padding-top: 50px;
+  padding-top: 15px;
 	height: 180px;
   width: 100%;
 	opacity: 1;
@@ -91,4 +90,9 @@
   width: 100%;*/
   /*height: auto;*/
   margin-bottom: 0px;
+}
+
+.img-orbe{
+  background: url(../assets/imagenes/orbe_app.jpg) center no-repeat;
+  background-size: cover;
 }
