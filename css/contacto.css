@@ -2,7 +2,6 @@
 /*css file*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
 
-/*ESTILO DE CONTACTO HTML*/
 .contacto{
   margin: 35px 0px 0px 0px;
   background-color: white;
@@ -52,10 +51,6 @@ textarea.materialize-textarea{
   color: #656565;
 }
 
-/*.input-field textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #0eae96 !important;
-}*/
-
 .input-field label{
   color: white;
   padding-left: 210px;
@@ -70,11 +65,6 @@ input[type=text], input[type=email], input[type=tel]{
   border-bottom: none;
   margin: 0px 0 0px 0px;
 }
-/*
-input[type=text]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=tel]:focus:not([readonly]){
-  border-bottom: none;
-  box-shadow: none;
-}*/
 
 .envio_contacto{
   padding-bottom: 5px;
@@ -95,4 +85,73 @@ input[type=text]:focus:not([readonly]), input[type=email]:focus:not([readonly]),
 .side_map{
   height: 600px;
   background-color: #046154;
+}
+
+@media (max-width:1280px){
+  .input-field{
+    padding-left: 190px;
+    padding-top: 10px;
+  }
+
+  .input-field label{
+    padding-left: 190px;
+  }
+
+  h3{
+    font-size: 0.7em;
+  }
+
+  #you_foot{
+    margin-left: 6px;
+  }
+  #fb_foot{
+    margin-left: 6px;
+  }
+  #insta_foot{
+    margin-left: 6px;
+  }
+
+  .mensaje{
+    padding: 55px 20px 15px 200px;
+  }
+}
+
+@media (max-width:1024px){
+  h3{
+    font-size: 0.9em;
+  }
+
+  .mensaje{
+    padding: 65px 70px 15px 230px;
+  }
+
+  .input-field{
+    padding-left: 75px;
+    padding-right: 70px;
+  }
+
+  .input-field label{
+    padding-left: 75px;
+  }
+
+  .envio_contacto{
+    padding-left: 0px;
+  }
+}
+
+@media (max-width:992px){
+  #you_foot{
+    margin-left: 10px;
+  }
+  #fb_foot{
+    margin-left: 10px;
+  }
+  #insta_foot{
+    margin-left: 10px;
+  }
+
+  .responsive-img{
+    width: 50%;
+    height: auto;
+  }
 }
