@@ -25,6 +25,7 @@ section{
 .service-blocks{
   width: 100%;
   margin-bottom: 0px;
+  white-space: nowrap;
 }
 
 .service{
@@ -32,12 +33,40 @@ section{
   padding: 0px !important;
   float: left;
   overflow: hidden;
+  cursor: pointer;
+  white-space: normal;
+  background-color: #000;
+  transition-property: transform, opacity;
+  transition-duration: .45s;
+  transition-delay: 0ms;
+  transition-timing-function: cubic-bezier(.5,0,.1,1);
+  will-change: transform, opacity;
 }
 
-.service:nth-child(1){
-  background: url(../assets/imagenes/vr_img.jpg) center no-repeat;
-  background-size: cover;
+.op{
+  opacity: 1;
 }
+.bg{
+  
+
+}
+
+/*.service:hover{
+  width: 100%;
+  background-color: rgba(35, 58, 72, 0.5);
+  transition: opacity .3s ease-out;
+  transform: translate3d(25%,5%,0px) scaleX(1.5);
+  transition-property: transform;
+  transition-duration: .45s;
+  transition-delay: 0ms;
+  transition-timing-function: cubic-bezier(.5, 0, .1, 1);
+  will-change: transform;
+  background-size: cover;
+}*/
+
+/*.service:nth-child(1){
+
+}*/
 
 .service:nth-child(2){
   background: url(../assets/imagenes/ar_img.jpg) center no-repeat;
@@ -70,14 +99,23 @@ section{
   text-shadow: none;
 }
 
-.bg1{
+/*.bg1{
   background-color: rgba(35, 58, 72, 0.3);
-}
+}*/
 
-.service .bg1:hover{
+/*.service:nth-child(1):hover{
+  width: 100%;
   background-color: rgba(35, 58, 72, 0.5);
-  transform: scale(1.1);
-}
+  transition: opacity .3s ease-out;
+  transform: translate3d(25%,5%,0px) scaleX(1);
+  transition-property: transform;
+  transition-duration: .45s;
+  transition-delay: 0ms;
+  transition-timing-function: cubic-bezier(.5, 0, .1, 1);
+  will-change: transform;
+  background: url(../assets/imagenes/vr_img.jpg) center no-repeat;
+  background-size: cover;
+}*/
 
 .bg2{
   background-color: rgba(41, 154, 255, 0.3);
