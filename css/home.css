@@ -46,8 +46,20 @@ section{
 .op{
   opacity: 1;
 }
-.bg{
+
+.op2{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-position: 50%;
+  background-position-X: 50%;
+  background-position-Y: center;
   
+
+}
+
+.bg{
+
 
 }
 
