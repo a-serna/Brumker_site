@@ -54,7 +54,7 @@ section{
 
 .card-reveal p{
   position: relative;
-  top: 150px;
+  top: 100px;
   padding-bottom: auto;
   padding-left: auto;
   padding-right: auto;
@@ -64,17 +64,13 @@ section{
 
 .card-reveal a .material-icons{
   position: relative;
-  top: 200px;
+  top: 150px;
   line-height: 2;
   padding-top: 5px;
   text-shadow: none;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-.card-reveal{
-  background-color: rgba(35, 58, 72, 0.8) !important;
 }
 
 .card:nth-child(1){
@@ -97,38 +93,29 @@ section{
   background-size: cover;
 }
 
-/*.service:hover p{
-  display: block;
-  opacity: 1;
-  background-color: rgba(35, 58, 72, 0.3);
-  transition-property: display, opacity,-webkit-transform;
-  transition-property: transform, display, opacity;
-  transition-property:transform, display, opacity,-webkit-transform;
-  transition-duration: .45s;
-  transition-delay: 0ms;
-  transition-timing-function: cubic-bezier(.5,0,.1,1);
-  will-change: transform, display, opacity;
-  z-index: 1;
-}*/
-
-/*.service a:hover span{
-  padding-top: 15px;
-	height: 180px;
-  width: 100%;
-	opacity: 1;
-  transition: all 0.3s ease-in-out;
-}*/
-
-.bg2{
-  background-color: rgba(41, 154, 255, 0.3);
+.card:nth-child(1) .card-reveal{
+  background-color: rgba(35, 58, 72, 0.8) !important;
 }
 
-.bg3{
-  background-color: rgba(184, 79, 61, 0.3);
+.card:nth-child(2) .card-reveal{
+  background-color: rgba(41, 154, 255, 0.8) !important;
 }
 
-.bg4{
-  background-color: rgba(225, 41, 41, 0.3);
+.card:nth-child(3) .card-reveal{
+  background-color: rgba(14, 174, 150, 0.8) !important;
+}
+
+.card:nth-child(4) .card-reveal{
+  background-color: rgba(184, 79, 61, 0.8) !important;
+}
+
+.btn-floating{
+  background-color: white;
+  color: #0EAE96;
+}
+
+.btn-floating:hover{
+  color: white;
 }
 
 /*responsive*/
@@ -138,13 +125,26 @@ section{
     margin-bottom: 50px;
   }
 
-  .service{
-    height: 400px;
+  .card{
+    height: 500px;
   }
 
-  .text_service{
+  .card-content span h5{
     padding-top: 10%;
   }
+
+  .card-reveal span h5{
+    padding-top: 10%;
+  }
+
+  .card-reveal p{
+    top: 15px;
+  }
+
+  .card-reveal a .material-icons{
+    top: 20px;
+  }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -157,26 +157,84 @@ section{
     margin-top: 25px;
     margin-bottom: 25px;
   }
+
+  .card{
+    height: 400px;
+  }
+
+  .card-reveal p{
+    top: 10px;
+  }
+
+  .card-reveal a .material-icons{
+    top: 15px;
+  }
 }
 
 @media only screen and (max-width: 600px){
-  .service{
-    height: 250px;
+  .card{
+    height: 300px;
   }
 
-  .service:nth-child(1){
-    background-position: 0px -320px;
+  .card:nth-child(1){
+    background-position: 0px -190px;
   }
 
-  .service:nth-child(2){
-    background-position: 0px -570px;
+  .card:nth-child(2){
+    background-position: 0px -290px;
   }
 
-  .service:nth-child(4){
-    background-position: 0px -460px;
+  .card:nth-child(4){
+    background-position: 0px -200px;
   }
 
-  .text_service{
-    padding-top: 3%;
+  .card-content span h5{
+    padding-top: 0;
+  }
+
+  .card-reveal span h5{
+    padding-top: 0;
+  }
+
+  .card-reveal p{
+    top: 0px;
+  }
+
+  .card-reveal a .material-icons{
+    top: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .card{
+    height: 300px;
+  }
+
+  .card:nth-child(1){
+    background-position: 0px -120px;
+  }
+
+  .card:nth-child(2){
+    background-position: 0px -150px;
+  }
+
+  .card:nth-child(4){
+    background-position: 0px -50px;
+  }
+
+  .card-content span h5{
+    font-size: 1.2em;
+  }
+
+  .card-reveal span h5{
+    font-size: 1.2em;
+  }
+
+  .card-reveal p{
+    font-size: 0.9em;
+  }
+
+  .card-reveal a .material-icons{
+    top: 0px;
   }
 }

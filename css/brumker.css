@@ -16,11 +16,9 @@ body{
   padding: 0 0 0 0;
   color: white;
   font-size: 18px;
-  /*font-family: 'Oswald', sans-serif;*/
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 400;
   background: url(../assets/imagenes/home_bg02.jpg);
-  /*background-size: 100%;*/
 }
 
 header{
