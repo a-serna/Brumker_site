@@ -25,7 +25,7 @@ section{
 .service-blocks{
   width: 100%;
   margin-bottom: 0px;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
 }
 
 .service{
@@ -34,6 +34,33 @@ section{
   float: left;
   overflow: hidden;
   white-space: normal;
+}
+
+.service h5{
+  padding-top: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.service p{
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: none;
+}
+
+.service div a .material-icons{
+  line-height: 2;
+  padding-top: 5px;
+  text-shadow: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
 }
 
 .service:nth-child(1){
@@ -56,48 +83,27 @@ section{
   background-size: cover;
 }
 
-.service .txt{
-  position: relative;
-  top: -394px;
-  opacity: 0;
-  padding-top: 120%;
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center;
-  height: 100%;
-  text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-h5{
-  position: relative;
-  top: 0px;
-  padding-top: 100%;
-  padding-left: auto;
-  padding-right: auto;
-  text-align: center;
-  z-index: 1;
-}
-
-.service .txt a .material-icons{
-  line-height: 2;
-  padding-top: 5px;
-  text-shadow: none;
-}
-
-.service .txt:hover{
-  /*width: 200%;*/
+/*.service:hover p{
+  display: block;
   opacity: 1;
   background-color: rgba(35, 58, 72, 0.3);
-  /*transform: opacity .5s ease;*/
-  transition-property:opacity,-webkit-transform;
-  transition-property: transform, opacity;
-  transition-property:transform,opacity,-webkit-transform;
+  transition-property: display, opacity,-webkit-transform;
+  transition-property: transform, display, opacity;
+  transition-property:transform, display, opacity,-webkit-transform;
   transition-duration: .45s;
   transition-delay: 0ms;
   transition-timing-function: cubic-bezier(.5,0,.1,1);
-  will-change: transform, opacity;
-}
+  will-change: transform, display, opacity;
+  z-index: 1;
+}*/
+
+/*.service a:hover span{
+  padding-top: 15px;
+	height: 180px;
+  width: 100%;
+	opacity: 1;
+  transition: all 0.3s ease-in-out;
+}*/
 
 .bg2{
   background-color: rgba(41, 154, 255, 0.3);

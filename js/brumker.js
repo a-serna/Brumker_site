@@ -32,4 +32,7 @@ $( document ).ready(function(){
       }, 300);
     });
   });
+  // $(function(){
+  //   $("p"+"a").hover(".service").addClass('op');
+  // });
 })
