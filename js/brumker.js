@@ -32,6 +32,9 @@ $( document ).ready(function(){
       }, 300);
     });
   });
+  $('video-container').scrollTop(function() {
+    iframe.play();
+  })
   // $(function(){
   //   $("p"+"a").hover(".service").addClass('op');
   // });

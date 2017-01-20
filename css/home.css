@@ -12,13 +12,17 @@ section{
   margin-bottom: 62px;
 }
 
-#nosotros{
+.video-container{
+}
+
+.nosotros{
   background-color: #046E5F;
   margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 0px;
   padding-left: 6%;
   padding-right: 6%;
+  height: auto;
 }
 
 /*sección servicios del index*/
@@ -37,7 +41,7 @@ section{
 }
 
 .card-content span h5{
-  padding-top: 100%;
+  padding-top: 25%;
   padding-left: auto;
   padding-right: auto;
   text-align: center;
