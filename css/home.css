@@ -29,80 +29,17 @@ section{
 }
 
 .service{
-  position:relative;
-  display:inline-block;
   height: 700px;
   padding: 0px !important;
   float: left;
   overflow: hidden;
-  cursor: pointer;
   white-space: normal;
-  background-color: #000;
-  transition-property:opacity,-webkit-transform;
-  transition-property: transform, opacity;
-  transition-property:transform,opacity,-webkit-transform;
-  transition-duration: .45s;
-  transition-delay: 0ms;
-  transition-timing-function: cubic-bezier(.5,0,.1,1);
-  will-change: transform, opacity;
 }
 
-.op{
-  opacity: 1;
+.service:nth-child(1){
+  background: url(../assets/imagenes/vr_img.jpg) center no-repeat;
+  background-size: cover;
 }
-
-.op2{
-  width: 100%;
-  height: 100%;
-  /*opacity: 0;*/
-  /*background-position: 50%;
-  background-position-X: 50%;
-  background-position-Y: center;*/
-}
-
-.bg{
-  width:100%;
-	height:100%;
-	pointer-events:none;
-	background-size:cover;
-}
-
-.op4{
-  position:absolute;
-	top:0;
-	right:0;
-	bottom:0;
-	left:0;
-	justify-content:center;
-	-webkit-align-items:center;
-	-ms-flex-align:center;
-	align-items:center;
-	width:100%;
-	height:100%;
-	pointer-events:none;
-	/*transition-property:-webkit-transform;
-	transition-property:transform;
-	transition-property:transform,-webkit-transform;
-	transition-duration:.45s;
-	transition-delay:.2s;
-	transition-timing-function:cubic-bezier(.56,-0.01,.1,1);
-	will-change:transform*/
-}
-
-.op4:hover{
-  transition-property:-webkit-transform;
-	transition-property:transform;
-	transition-property:transform,-webkit-transform;
-	transition-duration:.45s;
-	transition-delay:.2s;
-	transition-timing-function:cubic-bezier(.56,-0.01,.1,1);
-	will-change:transform
-
-}
-
-/*.service:nth-child(1){
-
-}*/
 
 .service:nth-child(2){
   background: url(../assets/imagenes/ar_img.jpg) center no-repeat;
@@ -119,39 +56,48 @@ section{
   background-size: cover;
 }
 
-.text_service{
-  padding-top: 100%;
+.service .txt{
+  position: relative;
+  top: -394px;
+  opacity: 0;
+  padding-top: 120%;
   width: 100%;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
   height: 100%;
   text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-.text_service a .material-icons{
+h5{
+  position: relative;
+  top: 0px;
+  padding-top: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.service .txt a .material-icons{
   line-height: 2;
   padding-top: 5px;
   text-shadow: none;
 }
 
-/*.bg1{
+.service .txt:hover{
+  /*width: 200%;*/
+  opacity: 1;
   background-color: rgba(35, 58, 72, 0.3);
-}*/
-
-/*.service:nth-child(1):hover{
-  width: 100%;
-  background-color: rgba(35, 58, 72, 0.5);
-  transition: opacity .3s ease-out;
-  transform: translate3d(25%,5%,0px) scaleX(1);
-  transition-property: transform;
+  /*transform: opacity .5s ease;*/
+  transition-property:opacity,-webkit-transform;
+  transition-property: transform, opacity;
+  transition-property:transform,opacity,-webkit-transform;
   transition-duration: .45s;
   transition-delay: 0ms;
-  transition-timing-function: cubic-bezier(.5, 0, .1, 1);
-  will-change: transform;
-  background: url(../assets/imagenes/vr_img.jpg) center no-repeat;
-  background-size: cover;
-}*/
+  transition-timing-function: cubic-bezier(.5,0,.1,1);
+  will-change: transform, opacity;
+}
 
 .bg2{
   background-color: rgba(41, 154, 255, 0.3);
