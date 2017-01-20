@@ -29,6 +29,8 @@ section{
 }
 
 .service{
+  position:relative;
+  display:inline-block;
   height: 700px;
   padding: 0px !important;
   float: left;
@@ -36,7 +38,9 @@ section{
   cursor: pointer;
   white-space: normal;
   background-color: #000;
+  transition-property:opacity,-webkit-transform;
   transition-property: transform, opacity;
+  transition-property:transform,opacity,-webkit-transform;
   transition-duration: .45s;
   transition-delay: 0ms;
   transition-timing-function: cubic-bezier(.5,0,.1,1);
@@ -50,31 +54,51 @@ section{
 .op2{
   width: 100%;
   height: 100%;
-  opacity: 0;
-  background-position: 50%;
+  /*opacity: 0;*/
+  /*background-position: 50%;
   background-position-X: 50%;
-  background-position-Y: center;
-  
-
+  background-position-Y: center;*/
 }
 
 .bg{
-
-
+  width:100%;
+	height:100%;
+	pointer-events:none;
+	background-size:cover;
 }
 
-/*.service:hover{
-  width: 100%;
-  background-color: rgba(35, 58, 72, 0.5);
-  transition: opacity .3s ease-out;
-  transform: translate3d(25%,5%,0px) scaleX(1.5);
-  transition-property: transform;
-  transition-duration: .45s;
-  transition-delay: 0ms;
-  transition-timing-function: cubic-bezier(.5, 0, .1, 1);
-  will-change: transform;
-  background-size: cover;
-}*/
+.op4{
+  position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	justify-content:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+	width:100%;
+	height:100%;
+	pointer-events:none;
+	/*transition-property:-webkit-transform;
+	transition-property:transform;
+	transition-property:transform,-webkit-transform;
+	transition-duration:.45s;
+	transition-delay:.2s;
+	transition-timing-function:cubic-bezier(.56,-0.01,.1,1);
+	will-change:transform*/
+}
+
+.op4:hover{
+  transition-property:-webkit-transform;
+	transition-property:transform;
+	transition-property:transform,-webkit-transform;
+	transition-duration:.45s;
+	transition-delay:.2s;
+	transition-timing-function:cubic-bezier(.56,-0.01,.1,1);
+	will-change:transform
+
+}
 
 /*.service:nth-child(1){
 
