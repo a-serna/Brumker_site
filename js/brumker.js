@@ -1,4 +1,4 @@
-$( document ).ready(function(){
+$(document).ready(function(){
   $('.button-collapse').sideNav({
     menuWidth: 300, // Default is 240
     // edge: 'right', // Choose the horizontal origin
@@ -31,5 +31,5 @@ $( document ).ready(function(){
         $(".block-items").fadeTo(300, 1);
       }, 300);
     });
-  });
+  })
 })
