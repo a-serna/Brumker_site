@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*css file*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
+
+.vr-section{
+  margin-top: 50px;
+  color: #0EAE96;
+}
+
+.vr-section p{
+  font-size: 1.3em !important;
+  line-height: normal;
+  margin-top: 3px;
+}
+
+
+.vr-section h1{
+  font-size: 1.3em !important;
+}
