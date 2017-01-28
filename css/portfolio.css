@@ -225,11 +225,6 @@ h5{
   font-size: 1.8em;
 }
 
-h6{
-  font-size: 2.5em;
-  color: #656565;
-}
-
 p{
   font-size: 1em;
 }
@@ -292,49 +287,4 @@ p{
 
 /*responsive*/
 @media only screen and (max-width: 1024px){
-  .responsive-img{
-    width: 80%;
-    height: auto;
-  }
-
-  .new{
-    bottom: -200px;
-  }
-
-  .social{
-    bottom: -200px;
-  }
-}
-
-@media only screen and (max-width: 768px){
-  .new{
-    bottom: -150px;
-  }
-
-  .social{
-    bottom: -150px;
-  }
-}
-
-@media only screen and (max-width: 600px){
-  .icon-modify{
-    margin-left: 0px !important;
-  }
-  .new{
-    bottom: -100px;
-  }
-
-  .social{
-    bottom: -100px;
-  }
-}
-
-@media only screen and (max-width: 480px){
-  .new{
-    bottom: -50px;
-  }
-
-  .social{
-    bottom: -50px;
-  }
 }
