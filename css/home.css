@@ -124,9 +124,14 @@ section{
 
 /*responsive*/
 @media only screen and (max-width: 1024px){
+  section{
+    margin-top: 18% !important;
+    margin-bottom: 5% !important;
+  }
+
   #arrow{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 80px;
   }
 
   .card{
@@ -153,13 +158,13 @@ section{
 
 @media only screen and (max-width: 768px){
   section{
-    margin-top: 10% !important;
-    margin-bottom: 5% !important;
+    margin-top: 15% !important;
+    margin-bottom: 8% !important;
   }
 
   #arrow{
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 
   .card{
@@ -210,6 +215,16 @@ section{
 }
 
 @media only screen and (max-width: 480px){
+  section{
+    margin-top: 50% !important;
+    margin-bottom: 30% !important;
+  }
+
+  #arrow{
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
   .card{
     height: 300px;
   }

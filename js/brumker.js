@@ -31,5 +31,7 @@ $(document).ready(function(){
         $(".block-items").fadeTo(300, 1);
       }, 300);
     });
-  })
+  });
+  // $('.carousel.carousel-slider').carousel({fullWidth: true});
+  //         $('.carousel').carousel();
 })
