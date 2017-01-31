@@ -257,3 +257,15 @@ section{
     top: 0px;
   }
 }
+
+@media only screen and (max-width: 320px){
+  section{
+    margin-top: 30% !important;
+    margin-bottom: 30% !important;
+  }
+
+  #arrow{
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+}
