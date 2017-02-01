@@ -12,6 +12,16 @@ section{
   margin-bottom: 62px;
 }
 
+.service-btn{
+  background-color: #046E5F;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 6%;
+  padding-right: 6%;
+  height: auto;
+}
+
 /*sección servicios del index*/
 .service-blocks{
   width: 100%;

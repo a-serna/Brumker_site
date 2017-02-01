@@ -92,10 +92,20 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/BMIFJBH5iHI?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div class="service-blocks row">
+    <div class="service-btn">
+      <a href="#service" class="white-text">
+        <div class="row container hoverable">
+          <div class="col s12 center-align">
+            <i class="material-icons left">view_column</i>
+            <h1>Servicios</h1>
+          </div>
+        </div>
+      </a>
+    </div>
 
+    <div class="service-blocks row">
       <div class="card col s12 m6 l3">
-        <div class="card-content">
+        <div class="card-content scrollspy" id="service">
           <span class="card-title activator">
             <i class="material-icons right">more_vert</i>
             <h5>Realidad virtual</h5>
@@ -219,6 +229,14 @@
       </div>
     </div>
 
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy({
+          scrollOffset: 0,
+        }
+        );
+      });
+    </script>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->

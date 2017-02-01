@@ -72,58 +72,14 @@
 
           <div class="center-align">
             <h2 class="fadeIn">Descubre como la realidad virtual puede ayudar en tu negocio.</h2>
-          <a href="#sector"><i class="hvr-pulse-grow material-icons icon-modify">expand_more</i></a>
+          <a href="#sector" class="fadeIn"><i class="hvr-pulse-grow material-icons icon-modify">expand_more</i></a>
           </div>
         </div>
-        <div class="col s12 l7">
+        <div class="col s12 l7 imgvr">
           <img class="bounceInRight" src="../assets/imagenes/Mini-Cardboard.png" alt="cardboard-vr">
         </div>
       </div>
 
-      <div class="">
-        <img src="../assets/imagenes/bk_icon.png" alt="" id="sector">
-      </div>
-
-      <div class="row sector scrollspy" id="sector">
-        <div class="col s3">
-          <h1>Inmobiliaria</h1>
-        </div>
-        <div class="col s3">
-          <h1>Turismo</h1>
-        </div>
-        <div class="col s3">
-          <h1>publicidad</h1>
-        </div>
-        <div class="col s3">
-          <h1>ventas</h1>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="slider transparent">
-          <ul class="slides">
-            <li>
-              <div class="row">
-                <div class="col s12">
-                  <h1 class="center-align">Inmobiliarias y constructoras</h1>
-                </div>
-                <div class="col s12">
-                  <a class="btn waves-effect white grey-text darken-text-2">Empezar proyecto</a>
-                </div>
-              </div>
-
-
-            </li>
-            <li>turismo</li>
-            <li> ventas</li>
-          </ul>
-        </div>
-
-      </div>
-
-    </article>
-
-    <main>
       <!-- <div class="slider">
         <ul class="slides">
           <li>
@@ -156,6 +112,64 @@
           </li>
         </ul>
       </div> -->
+
+      <!--
+      <div class="row sector scrollspy" id="sector">
+        <div class="col s12">
+          <h1 class="left-align">Inmobiliarias y constructoras</h1>
+        </div>
+        <div class="col s3">
+          <h1>Turismo</h1>
+        </div>
+        <div class="col s3">
+          <h1>publicidad</h1>
+        </div>
+        <div class="col s3">
+          <h1>ventas</h1>
+        </div>
+      </div> -->
+
+    </article>
+
+    <main>
+      <div id="sector">
+        <div class="row sector-01">
+          <div class="col s12">
+            <h1>Inmobiliarias y Constructoras</h1>
+          </div>
+          <div class="col s6">
+              <p>Desarrollamos visualizaciones de proyectos arquitectonicos, licitaciones</p>
+          </div>
+        </div>
+
+        <div class="row sector-02">
+          <div class="col s12">
+            <h1>Turismo y hoteleria</h1>
+          </div>
+          <div class="col s6">
+              <p>Desarrollamos visualizaciones de proyectos arquitectonicos, licitaciones</p>
+          </div>
+        </div>
+
+        <div class="row sector-03">
+          <div class="col s12">
+            <h1>Publicidad</h1>
+          </div>
+          <div class="col s6">
+              <p>Desarrollamos visualizaciones de proyectos arquitectonicos, licitaciones</p>
+          </div>
+        </div>
+
+        <div class="row sector-04">
+          <div class="col s12">
+            <h1>Ventas vr-commerce</h1>
+          </div>
+          <div class="col s6">
+            <p>Desarrollamos visualizaciones de proyectos arquitectonicos, licitaciones</p>
+          </div>
+        </div>
+      </div>
+
     </main>
 
     <footer>
@@ -200,10 +214,11 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.slider').slider(
-          height: 600
-        );
         $('.scrollspy').scrollSpy();
+        $('.slider').slider({
+          height: 200,
+        }
+        );
       });
     </script>
     <!--Import jQuery before materialize.js-->

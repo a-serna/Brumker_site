@@ -9,6 +9,7 @@
 
 .vr-section .row{
   margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .vr-section p{
@@ -22,18 +23,30 @@
   font-size: 1.3em !important;
 }
 
-.sector{
-  margin-top: 0px !important;
+.imgvr{
+  height: 511px;
 }
-.sector div:nth-child(1){
-  /*background-color: tomato;*/
+
+.sector-01{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #47BBAA;
 }
-.sector div:nth-child(2){
-  /*background-color: lavender;*/
+
+.sector-02{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #FAD449;
 }
-.sector div:nth-child(3){
-  /*background-color: blue;*/
+
+.sector-03{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #BB22BB;
 }
-.sector div:nth-child(4){
-  /*background-color: white;*/
+
+.sector-04{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #E12929;
 }
