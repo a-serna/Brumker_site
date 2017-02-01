@@ -1,6 +1,29 @@
 @charset "UTF-8";
 /*css file*/
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
 
 @-webkit-keyframes zoomIn {
   from {
@@ -178,8 +201,8 @@
 
   from {
     opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
   }
 
   60% {
@@ -212,8 +235,8 @@
 
   from {
     opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
   }
 
   60% {
@@ -244,10 +267,7 @@
 	-webkit-animation-duration: 2s;
 }
 
-
-
-
-
+/*Responsive*/
 @media (max-width: 768px){
 	.text-animate{
 		height: 65px;

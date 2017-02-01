@@ -32,6 +32,4 @@ $(document).ready(function(){
       }, 300);
     });
   });
-  // $('.carousel.carousel-slider').carousel({fullWidth: true});
-  //         $('.carousel').carousel();
 })
