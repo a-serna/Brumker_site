@@ -69,7 +69,6 @@
         </div>
         <div class="col s12 l5">
           <p class="fadeInLeftBig grey-text text-darken-2">Visualizaciones y expeciencias para proyectos, productos y marcas.</p>
-
           <div class="center-align">
             <h2 class="fadeIn">Descubre como la realidad virtual puede ayudar en tu negocio.</h2>
           <a href="#sector" class="fadeIn"><i class="hvr-pulse-grow material-icons icon-modify">expand_more</i></a>
@@ -79,72 +78,37 @@
           <img class="bounceInRight" src="../assets/imagenes/Mini-Cardboard.png" alt="cardboard-vr">
         </div>
       </div>
-
-      <!-- <div class="slider">
-        <ul class="slides">
-          <li>
-            <img src="http://lorempixel.com/580/250/nature/1">
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="http://lorempixel.com/580/250/nature/2">
-            <div class="caption left-align">
-              <h3>Left Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="http://lorempixel.com/580/250/nature/3">
-            <div class="caption right-align">
-              <h3>Right Aligned Caption</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-          <li>
-            <img src="http://lorempixel.com/580/250/nature/4">
-            <div class="caption center-align">
-              <h3>This is our big Tagline!</h3>
-              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-          </li>
-        </ul>
-      </div> -->
-
-      <!--
-      <div class="row sector scrollspy" id="sector">
-        <div class="col s12">
-          <h1 class="left-align">Inmobiliarias y constructoras</h1>
-        </div>
-        <div class="col s3">
-          <h1>Turismo</h1>
-        </div>
-        <div class="col s3">
-          <h1>publicidad</h1>
-        </div>
-        <div class="col s3">
-          <h1>ventas</h1>
-        </div>
-      </div> -->
-
     </article>
 
     <main>
-      <div id="sector">
+      <div id="sector" class="scrollspy">
         <div class="row sector-01">
           <div class="col s12 title">
             <h1>Inmobiliarias y constructoras</h1>
           </div>
-          <div class="col s6">
-            <p></p>
-            <p>Fotografías 360°</p>
-            <p>Videos 360° para facebook y youtube</p>
-            <p>Visualizaciones interactivas para gafas de realidad virtual</p>
+          <div class="col s12 m6">
+            <p>Brindale a tus futuros compradores la posibilidad de ver tus proyectos inmobiliarios desde la comodidad de su casa, Sin que tengan que gastar tiempo valioso en desplazarse.</p>
+            <ul class="item-list">
+              <li class="center-align">
+                <i class="material-icons hvr-push"><img src="../assets/imagenes/360-photo.svg" class="icon-size" alt="photo_icon" title="photo_icon"></i>
+                <p>Fotografías 360°</p>
+              </li>
+              <li class="center-align">
+                <i class="material-icons hvr-push"><img src="../assets/imagenes/360-vid.svg" class="icon-size" alt="360_icon" title="360_icon"></i>
+                <p>Videos 360° para facebook y youtube</p>
+              </li>
+              <li class="center-align">
+                <i class="material-icons hvr-push"><img src="../assets/imagenes/arch.svg" class="icon-size" alt="arch_icon" title="arch_icon"></i>
+                <p>Arquitectura interactiva</p>
+              </li>
+            </ul>
+            <div class="center-align">
+              <a class="waves-effect waves-light btn">Adquirir servicio</a>
+            </div>
           </div>
-          <div class="col s12 center-align">
-            <a class="waves-effect waves-light btn">Empezar un proyecto</a>
+          <div class="col s12 m6">
+            <img id="img-ach" src="../assets/imagenes/house.png" alt="house-render">
+            <img id="img-man" src="../assets/imagenes/manheadset.png" alt="inmobiliaria-vr">
           </div>
         </div>
 
@@ -220,7 +184,10 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.scrollspy').scrollSpy();
+        $('.scrollspy').scrollSpy({
+          scrollOffset: 0,
+        }
+        );
         $('.slider').slider({
           height: 200,
         }
