@@ -2,23 +2,23 @@
 /*css file*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
 
-.vr-section{
+article{
   margin-top: 50px;
   color: #0EAE96;
 }
 
-.vr-section .row{
+article .row{
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
 
-.vr-section p{
+article p{
   font-size: 1.3em !important;
   line-height: normal;
   margin-top: 3px;
 }
 
-.vr-section h1{
+article h1{
   font-size: 1.3em !important;
 }
 
@@ -32,7 +32,7 @@
   background-color: #47BBAA;
   padding-top: 50px;
   padding-left: 50px;
-  height: 540px;
+  height: 440px;
   overflow: hidden;
 }
 
@@ -64,8 +64,9 @@
 
 #img-man{
   position: relative;
-  top: -280px;
+  top: -380px;
   left: -100px;
+  opacity: 0;
 }
 
 #img-ach{

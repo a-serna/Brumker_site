@@ -11,6 +11,7 @@ $(document).ready(function(){
       $(".text").addClass('animated fadeInLeftBig').css({"opacity":"1"});
       $(".item-list").addClass('animated fadeIn').css({"opacity":"1"});
       $("#img-ach").addClass('animated hinge bounceInRight').css({"opacity":"1",});
+      $("#img-man").addClass('animated hinge slideInUp').css({"opacity":"1",});
     }
 
   });
