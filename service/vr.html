@@ -115,21 +115,21 @@
                 <div class="row">
                   <form action="service.php" method="post" class="col s12">
                      <div class="row">
-                      <div class="input-field col s6">
+                      <div class="input-field col s12 m6">
                         <input name="first_name" id="first_name" type="text" class="validate">
                         <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
                       </div>
-                      <div class="input-field col s6">
+                      <div class="input-field col s12 m6">
                          <input name="enterprise" id="enterprise" type="text">
                          <label for="enterprise">Marca o empresa</label>
                       </div>
                      </div>
                      <div class="row">
-                       <div class="input-field col s6">
+                       <div class="input-field col s12 m6">
                          <input name="email" id="email" type="email" class="validate">
                          <label for="email" data-error="wrong" data-success="ok">Email</label>
                        </div>
-                       <div class="input-field col s6">
+                       <div class="input-field col s12 m6">
                           <select name="service">
                             <option value="1">Realidad virtual</option>
                             <option value="2">Realidad aumentada</option>
@@ -146,7 +146,7 @@
                           <input name="budget" id="budget" type="text">
                           <label for="budget">$(COP)</label>
                         </div>
-                        <div class="col s6">
+                        <div class="col s12 m6">
                           <p>
                             <input name="budget_check" type="checkbox" id="test5" />
                             <label for="test5">Prefiero hablarlo personalmente</label>
@@ -171,8 +171,10 @@
               </div>
             </div>
           </div>
-          <div class="col s12 m6">
+          <div class="col s12 m6 hide-on-small-only">
             <img id="img-ach" src="../assets/imagenes/house.png" alt="house-render">
+          </div>
+          <div class="col s12 m6 hide-on-small-only">
             <img id="img-man" src="../assets/imagenes/manheadset.png" alt="inmobiliaria-vr">
           </div>
         </div>
