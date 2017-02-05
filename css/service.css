@@ -77,6 +77,10 @@ form{
   color: #656565;
 }
 
+.text{
+  opacity: 0;
+}
+
 .sector-02{
   margin-top: 0px;
   margin-bottom: 0px;

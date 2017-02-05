@@ -84,10 +84,10 @@
       <div id="sector" class="scrollspy">
         <div class="row sector-01">
           <div class="col s12 title">
-            <h1>Inmobiliarias y constructoras</h1>
+            <h1 class="text">Inmobiliarias y constructoras</h1>
           </div>
           <div class="col s12 m6">
-            <p>Brindale a tus futuros compradores la posibilidad de ver tus proyectos inmobiliarios desde la comodidad de su casa, Sin que tengan que gastar tiempo valioso en desplazarse.</p>
+            <p class="text">Brindale a tus futuros compradores la posibilidad de ver tus proyectos inmobiliarios desde la comodidad de su casa, Sin que tengan que gastar tiempo valioso en desplazarse.</p>
             <ul class="item-list">
               <li class="center-align">
                 <i class="material-icons hvr-push"><img src="../assets/imagenes/360-photo.svg" class="icon-size" alt="photo_icon" title="photo_icon"></i>
@@ -102,7 +102,7 @@
                 <p>Arquitectura interactiva</p>
               </li>
             </ul>
-            <a href="#modal1" class="modal-trigger waves-effect waves-light btn">Adquirir servicio</a>
+            <a href="#modal1" class="modal-trigger waves-effect waves-light btn">Cotizar servicio</a>
             <!-- Modal formulario -->
             <div id="modal1" class="modal">
               <div class="modal-content">
@@ -195,14 +195,14 @@
           </div>
         </div>
 
-        <div class="row sector-04">
+        <!-- <div class="row sector-04">
           <div class="col s12">
             <h1>Ventas vr-commerce</h1>
           </div>
           <div class="col s6">
             <p>Desarrollamos visualizaciones de proyectos arquitectonicos, licitaciones</p>
           </div>
-        </div>
+        </div> -->
       </div>
 
     </main>
@@ -255,11 +255,11 @@
         $('.slider').slider({
           height: 200,
         });
-        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-        $('.modal').modal({
+        $('.modal').css({"width":"80%"}).modal({
           opacity: .7, // Opacity of modal background
         });
          $('select').material_select();
+         $('.parallax').parallax();
       });
     </script>
     <!--Import jQuery before materialize.js-->

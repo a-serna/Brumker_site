@@ -252,6 +252,7 @@
   -webkit-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig;
   -webkit-animation-duration: 1s;
+  opacity: 1;
 }
 
 

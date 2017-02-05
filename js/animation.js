@@ -1,11 +1,15 @@
 $(document).ready(function(){
-  // var scroll;
-  // $(window).scroll(function() {
-  //   scroll = $(window).scrollTop();
-  //
-  //   if (scroll > 300) {
-  //     $("#sector").addClass('animated bounceInRight');
-  //   }
-  //
+  // $(window).scroll(function(){
+  // var y = $(this).scrollTop();
+  // console.log(y);
   // });
+  var scroll;
+  $(window).scroll(function() {
+    scroll = $(window).scrollTop();
+
+    if (scroll > 200) {
+      $(".text").addClass('animated fadeInLeftBig');
+    }
+
+  });
 })
