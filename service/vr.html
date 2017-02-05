@@ -102,72 +102,72 @@
                 <p>Arquitectura interactiva</p>
               </li>
             </ul>
-            <div class="center-align">
-              <a href="#modal1" class="modal-trigger waves-effect waves-light btn">Adquirir servicio</a>
-              <!-- Modal formulario -->
-              <div id="modal1" class="modal">
-                <div class="modal-content">
-                  <h5 class="grey-text text-darken-5">Tienes toda nuestra atención</h5>
-                  <p class="grey-text text-darken-3">Somos los indicados para llevar a cabo tu proyecto</p>
-                  <div class="row">
-                    <form action="service.php" method="post" class="col s12">
-                       <div class="row">
-                        <div class="input-field col s6">
-                          <input name="first_name" id="first_name" type="text" class="validate">
-                          <label for="first_name">Nombre y apellidos</label>
-                        </div>
-                        <div class="input-field col s6">
-                           <input id="enterprise" type="text">
-                           <label for="enterprise">Marca o empresa</label>
-                        </div>
-                       </div>
-                       <div class="row">
-                         <div class="input-field col s6">
-                           <input id="email" type="email" class="validate">
-                           <label for="email" data-error="wrong" data-success="right">Email</label>
-                         </div>
-                         <div class="input-field col s6">
-                            <select>
-                              <option value="1">Realidad virtual</option>
-                              <option value="2">Realidad aumentada</option>
-                              <option value="3">Web / app</option>
-                              <option value="4">Modelado 3D</option>
-                            </select>
-                            <label>Selecciona el servicio que deseas</label>
-                          </div>
-                       </div>
-                       <div class="row">
-                         <div class="col s12">
-                          <p class="grey-text">Presupuesto:</p>
-                          <div class="input-field inline">
-                            <input id="budget" type="email" class="validate">
-                            <label for="budget">$(COP)</label>
-                          </div>
-                          <div class="col s6">
-                            <p>
-                              <input type="checkbox" id="test5" />
-                              <label for="test5">Prefiero hablarlo personalmente</label>
-                            </p>
-                          </div>
-                        </div>
-                       </div>
-                       <div class="row">
-                         <div class="input-field col s12">
-                          <textarea id="textarea1" class="materialize-textarea"></textarea>
-                          <label for="textarea1">Expecificaciones</label>
-                        </div>
-                       </div>
-                       <div class="row">
-                         <div class="col s12">
-                            <p class="grey-text center-align">Responderemos lo antes posible a tu solicitud.</p>
-                         </div>
-                       </div>
-                    </form>
+            <a href="#modal1" class="modal-trigger waves-effect waves-light btn">Adquirir servicio</a>
+            <!-- Modal formulario -->
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <div class="row">
+                  <div class="col s12 center-align">
+                    <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                    <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
                   </div>
                 </div>
-                <!-- <div class="modal-footer">
-                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
-                </div> -->
+                <div class="row">
+                  <form action="service.php" method="post" class="col s12">
+                     <div class="row">
+                      <div class="input-field col s6">
+                        <input name="first_name" id="first_name" type="text" class="validate">
+                        <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                      </div>
+                      <div class="input-field col s6">
+                         <input name="enterprise" id="enterprise" type="text">
+                         <label for="enterprise">Marca o empresa</label>
+                      </div>
+                     </div>
+                     <div class="row">
+                       <div class="input-field col s6">
+                         <input name="email" id="email" type="email" class="validate">
+                         <label for="email" data-error="wrong" data-success="ok">Email</label>
+                       </div>
+                       <div class="input-field col s6">
+                          <select name="service">
+                            <option value="1">Realidad virtual</option>
+                            <option value="2">Realidad aumentada</option>
+                            <option value="3">Web / app</option>
+                            <option value="4">Modelado 3D</option>
+                          </select>
+                          <label>Selecciona el servicio que deseas</label>
+                        </div>
+                     </div>
+                     <div class="row">
+                       <div class="col s12">
+                        <p class="grey-text">Presupuesto:</p>
+                        <div class="input-field inline">
+                          <input name="budget" id="budget" type="text">
+                          <label for="budget">$(COP)</label>
+                        </div>
+                        <div class="col s6">
+                          <p>
+                            <input name="budget_check" type="checkbox" id="test5" />
+                            <label for="test5">Prefiero hablarlo personalmente</label>
+                          </p>
+                        </div>
+                      </div>
+                     </div>
+                     <div class="row">
+                       <div class="input-field col s12">
+                        <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Mensaje</label>
+                      </div>
+                     </div>
+                     <div class="row">
+                       <div class="col s12 center-align">
+                          <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                          <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
+                       </div>
+                     </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
