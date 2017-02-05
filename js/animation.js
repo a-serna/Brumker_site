@@ -8,7 +8,9 @@ $(document).ready(function(){
     scroll = $(window).scrollTop();
 
     if (scroll > 200) {
-      $(".text").addClass('animated fadeInLeftBig');
+      $(".text").addClass('animated fadeInLeftBig').css({"opacity":"1"});
+      $(".item-list").addClass('animated fadeIn').css({"opacity":"1"});
+      $("#img-ach").addClass('animated hinge bounceInRight').css({"opacity":"1",});
     }
 
   });
