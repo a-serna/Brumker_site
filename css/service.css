@@ -26,7 +26,7 @@ article p{
   height: 511px;
 }
 
-.imgweb{
+.web-desk{
   width: 100% !important;
   position: relative;
   top: -155px;
@@ -36,7 +36,7 @@ article p{
   overflow: hidden;
 }
 
-.imgweb .col{
+.web-desk .col{
   padding: 0px !important;
 }
 
