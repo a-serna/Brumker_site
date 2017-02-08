@@ -54,18 +54,19 @@ article p{
   font-size: 2em;
 }
 
-.item-list{
+#item-list{
   opacity: 0;
   display: flex;
   font-family: 'Oswald', sans-serif !important;
+  z-index: -3;
 }
 
-.item-list li{
+#item-list li{
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.item-list li p{
+#item-list li p{
   margin-top: 0px;
 }
 
@@ -102,31 +103,77 @@ form{
   opacity: 0;
 }
 
+#cotizar{
+  opacity: 0;
+}
+
 .sector-02{
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #EE4343;
+  background-color: #DB3E3D;
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
   height: 440px;
   overflow: hidden;
+  z-index: -3;
+}
+
+#item-list-2{
+  opacity: 0;
+  display: flex;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+#item-list-2 li{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#item-list-2 li p{
+  margin-top: 0px;
+}
+
+.text-2{
+  opacity: 0;
+}
+
+#cotizar-2{
+  opacity: 0;
 }
 
 .sector-03{
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #388FC7;
+  background-color: #54B5F2;
   padding-top: 50px;
   padding-left: 50px;
   height: 440px;
   overflow: hidden;
+  z-index: -3;
 }
 
-.sector-04{
+#item-list-3{
+  opacity: 0;
+  display: flex;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+#item-list-3 li{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#item-list-3 li p{
   margin-top: 0px;
-  margin-bottom: 0px;
-  background-color: #E12929;
+}
+
+.text-3{
+  opacity: 0;
+}
+
+#cotizar-3{
+  opacity: 0;
 }
 
 @media (min-width: 1366px) {
