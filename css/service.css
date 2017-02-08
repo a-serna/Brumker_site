@@ -4,11 +4,11 @@
 
 article{
   margin-top: 50px;
-  color: #0EAE96;
 }
 
 .web{
   height: 576px;
+  color: #E12929 !important;
 }
 
 article .row{
@@ -20,10 +20,6 @@ article p{
   font-size: 1.3em !important;
   line-height: normal;
   margin-top: 3px;
-}
-
-article h1{
-  font-size: 1.3em !important;
 }
 
 .imgvr{
@@ -94,6 +90,10 @@ article h1{
   opacity: 0;
 }
 
+#img-web{
+  opacity: 0;
+}
+
 form{
   color: #656565;
 }
@@ -105,13 +105,22 @@ form{
 .sector-02{
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #FAD449;
+  background-color: #EE4343;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 440px;
+  overflow: hidden;
 }
 
 .sector-03{
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #BB22BB;
+  background-color: #388FC7;
+  padding-top: 50px;
+  padding-left: 50px;
+  height: 440px;
+  overflow: hidden;
 }
 
 .sector-04{

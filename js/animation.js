@@ -12,6 +12,7 @@ $(document).ready(function(){
       $(".item-list").addClass('animated fadeIn').css({"opacity":"1"});
       $("#img-ach").addClass('animated hinge bounceInRight').css({"opacity":"1",});
       $("#img-man").addClass('animated hinge slideInUp').css({"opacity":"1",});
+      $("#img-web").addClass('animated hinge slideInUp').css({"opacity":"1",});
     }
 
   });
