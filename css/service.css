@@ -7,6 +7,10 @@ article{
   color: #0EAE96;
 }
 
+.web{
+  height: 576px;
+}
+
 article .row{
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -24,6 +28,20 @@ article h1{
 
 .imgvr{
   height: 511px;
+}
+
+.imgweb{
+  width: 100% !important;
+  position: relative;
+  top: -180px;
+  z-index: -2;
+  margin-bottom: 0px;
+  padding: 0px !important;
+  overflow: hidden;
+}
+
+.imgweb .col{
+  padding: 0px !important;
 }
 
 .sector-01{
