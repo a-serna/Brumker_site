@@ -2,11 +2,29 @@
 /*css file*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
 
-article{margin-top: 50px;}
-.web{height: 610px;}
-article .row{margin-bottom: 0px;padding-bottom: 0px;}
-article p{font-size: 1.3em !important;line-height: normal;margin-top: 3px;}
-.imgvr{height: 511px;}
+article{
+  margin-top: 50px;
+}
+
+.web{
+  height: 610px;
+}
+
+article .row{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+article p{
+  font-size: 1.3em !important;
+  line-height: normal;
+  margin-top: 3px;
+}
+
+.imgvr{
+  height: 511px;
+}
+
 .web-desk{
   position: relative;
   top: -110px;
@@ -16,8 +34,15 @@ article p{font-size: 1.3em !important;line-height: normal;margin-top: 3px;}
   padding: 0px !important;
   overflow: hidden;
 }
-.web-desk .col{padding: 0px !important;}
-#img-web-desk{width: 100%;}
+
+.web-desk .col{
+  padding: 0px !important;
+}
+
+#img-web-desk{
+  width: 100%;
+}
+
 .sector-01{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -28,86 +53,143 @@ article p{font-size: 1.3em !important;line-height: normal;margin-top: 3px;}
   height: 440px;
   overflow: hidden;
 }
-.title{font-size: 2em;}
-#item-list{
-  opacity: 0;
-  display: flex;
-  font-family: 'Oswald', sans-serif !important;
-  z-index: -3;
+
+.title{
+  font-size: 2em;
 }
-#item-list li{margin-left: 20px;margin-right: 20px;}
-#item-list li p{margin-top: 0px;}
+
+.item-list{
+  opacity: 0;
+  display: flex !important;
+  display: -webkit-flex !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.item-list li{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.item-list li p{
+  margin-top: 0px;
+}
+
 .icon-size{
   margin-left: auto;
   margin-right: auto;
   width: 50px;
   height: 50px;
 }
+
 #img-man{
   position: relative;
   top: -380px;
   left: 490px;
   opacity: 0;
 }
+
 #img-ach{
   position: relative;
   top: -70px;
   left: 100px;
   opacity: 0;
 }
+
 #img-web{
   opacity: 0;
   position: relative;
   top: -40px;
 }
-form{color: #656565;}
-.text{opacity: 0;}
-#cotizar{opacity: 0;}
+
+form{
+  color: #656565;
+}
+
+.text{
+  opacity: 0;
+}
+
+#cotizar{
+  opacity: 0;
+}
+
 .sector-02{
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #DB3E3D;
+  background-color: rgb(215, 62, 61);
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
   height: 440px;
   overflow: hidden;
-  z-index: -3;
 }
-#item-list-2{
+
+.item-list-2{
   opacity: 0;
-  display: flex;
+  display: flex !important;
+  display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
 }
-#item-list-2 li{margin-left: 20px;margin-right: 20px;}
-#item-list-2 li p{margin-top: 0px;}
-.text-2{opacity: 0;}
-#cotizar-2{opacity: 0;}
+
+.item-list-2 li{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.item-list-2 li p{
+  margin-top: 0px;
+}
+
+.text-2{
+  opacity: 0;
+}
+
+#cotizar-2{
+  opacity: 0;
+}
+
 #img-interactive{
   position: relative;
   top: -300px;
   left: 50px;
   opacity: 0;
 }
+
 .sector-03{
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #54B5F2;
+  background-color: rgb(84, 181, 242);
   padding-top: 50px;
   padding-left: 50px;
+  padding-right: 50px;
   height: 440px;
   overflow: hidden;
-  z-index: -3;
 }
-#item-list-3{
+
+.item-list-3{
   opacity: 0;
-  display: flex;
+  display: flex !important;
+  display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
 }
-#item-list-3 li{margin-left: 20px;margin-right: 20px;}
-#item-list-3 li p{margin-top: 0px;}
-.text-3{opacity: 0;}
-#cotizar-3{opacity: 0;}
+
+.item-list-3 li{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.item-list-3 li p{
+  margin-top: 0px;
+}
+
+.text-3{
+  opacity: 0;
+}
+
+#cotizar-3{
+  opacity: 0;
+}
+
 #img-app{
   position: relative;
   top: -70px;
@@ -115,7 +197,7 @@ form{color: #656565;}
   opacity: 0;
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1367px) {
   #img-man{top: -380px;left: 550px;}
   .web-desk{top: -80px;}
   .web{height: 670px;}
@@ -153,7 +235,7 @@ form{color: #656565;}
   #img-web{top: 40px;width: 100%;left: 40px;}
   #img-interactive{left: -40px;}
   #img-app{top: -40px;left: -35px;}
-  #item-list-2 li{margin-left: 5px; margin-right: 5px;}
+  .item-list-2 li{margin-left: 5px; margin-right: 5px;}
 }
 @media (max-width: 768px) {
   .imgvr{height: 364px;}
@@ -171,8 +253,8 @@ form{color: #656565;}
   #img-web{top: -35px; left: 75px; width: 300px;}
   #img-interactive{left: -80px;width: 320px; top: -190px;}
   #img-app{top: -30px;left: -30px; width: 350px;}
-  #item-list-2 li i .icon-size{width: 40px;}
-  #item-list-2 li{margin-left: 3px; margin-right: 3px;}
+  .item-list-2 li i .icon-size{width: 40px;}
+  .item-list-2 li{margin-left: 3px; margin-right: 3px;}
 }
 @media (max-width: 600px) {
   article p{font-size: 1em !important;}
@@ -200,8 +282,8 @@ form{color: #656565;}
   }
   #img-web-desk{width: 800px;float: right;}
   .web{height: 475px;}
-  #item-list-2 li i .icon-size{width: 50px;}
-  #item-list-2 li{margin-left: 5px; margin-right: 5px;}
+  .item-list-2 li i .icon-size{width: 50px;}
+  .item-list-2 li{margin-left: 5px; margin-right: 5px;}
 }
 @media (max-width: 480px) {
   .sector-01{
@@ -224,7 +306,7 @@ form{color: #656565;}
   }
   #img-web-desk{width: 700px;}
   .web{height: 460px;}
-  #item-list li{margin-left: 10px;margin-right: 10px;}
+  .item-list li{margin-left: 10px;margin-right: 10px;}
 }
 @media (max-width: 414px) {
   .sector-01{
@@ -245,7 +327,6 @@ form{color: #656565;}
   #img-web-desk{width: 600px;padding-top: 45%;}
   .web{height: 615px;}
 }
-
 @media (max-width: 380px) {
   article{margin-top: 10px;}
   .sector-01{height: 520px;}
@@ -253,9 +334,9 @@ form{color: #656565;}
   .sector-03{height: 520px;}
   .imgvr{height: 220px;}
   .imgvr img{width: 280px;}
-  #item-list li{margin-left: 5px;margin-right: 5px;}
-  #item-list-2 li{margin-left: 5px;margin-right: 5px; font-size: 0.9em;}
-  #item-list-3 li{margin-left: 5px;margin-right: 5px;}
+  .item-list li{margin-left: 5px;margin-right: 5px;}
+  .item-list-2 li{margin-left: 5px;margin-right: 5px; font-size: 0.9em;}
+  .item-list-3 li{margin-left: 5px;margin-right: 5px;}
   #img-web-desk{padding-top: 20%;}
   .web{height: 505px;}
   .icon-size{width: 30px;height: 30px;}
