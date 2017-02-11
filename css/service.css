@@ -4,6 +4,7 @@
 
 article{margin-top: 0px;}
 .web{height: 610px;}
+.model{height: 560px;}
 article .row{margin-bottom: 0px;padding-bottom: 0px;}
 article p{font-size: 1.3em !important;line-height: normal;margin-top: 3px;}
 .imgvr{height: 511px;}
@@ -18,6 +19,7 @@ article p{font-size: 1.3em !important;line-height: normal;margin-top: 3px;}
 }
 .web-desk .col{padding: 0px !important;}
 #img-web-desk{width: 100%;}
+#img-3d{width: 130%;overflow: hidden;}
 .sector-01{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -131,6 +133,14 @@ form{color: #656565;}
   height: 440px;
   overflow: hidden;
 }
+.item-list-4{
+  opacity: 0;
+  display: flex !important;
+  display: -webkit-flex !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+.item-list-4 li{margin-left: 20px;margin-right: 20px;}
+.item-list-4 li p{margin-top: 0px;}
 #img-producto{
   opacity: 0;
   position: relative;
@@ -154,12 +164,21 @@ form{color: #656565;}
   .imgvr img{width: 560px;}
   #img-man{top: -380px;left: 380px;}
   #img-web{width: 100%;}
+  #img-house{left: 0px;}
+  #img-producto{left: 100px;}
+  #img-3d{
+    width: 120%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
 }
 @media (max-width: 992px) {
   .imgvr img{margin-left: 80px;margin-right: auto;}
   .sector-01{height: 507px;}
   .sector-02{height: 507px;}
   .sector-03{height: 507px;}
+  .sector-04{height: 507px;}
   #img-man{
     width: 238px;
     top: -60px;
@@ -177,6 +196,17 @@ form{color: #656565;}
   #img-interactive{left: -40px;}
   #img-app{top: -40px;left: -35px;}
   .item-list-2 li{margin-left: 5px; margin-right: 5px;}
+  #img-3d{
+    top: 120px;
+    left: -62px;
+    width: 120%;
+  }
+  #img-house{
+    left: -40px;
+    top: -45px;
+    width: 120%;
+  }
+  #img-producto{left: 0px;}
 }
 @media (max-width: 768px) {
   .imgvr{height: 364px;}
@@ -188,6 +218,7 @@ form{color: #656565;}
   .sector-01{padding-top: 40px;height: 550px;}
   .sector-02{padding-top: 40px;height: 550px;}
   .sector-03{padding-top: 40px;height: 550px;}
+  .sector-04{padding-top: 40px;height: 550px;}
   .title{font-size: 1.5em;}
   #img-man{top: 5px;left: 10px;}
   #img-web-desk{width: 900px;float: right;}
@@ -196,6 +227,9 @@ form{color: #656565;}
   #img-app{top: -30px;left: -30px; width: 350px;}
   .item-list-2 li i .icon-size{width: 40px;}
   .item-list-2 li{margin-left: 3px; margin-right: 3px;}
+  #img-3d{top: 120px;left: 5px;}
+  #img-house{left: 0px;top: 50px;}
+  #img-producto{left: -35px;}
 }
 @media (max-width: 600px) {
   article p{font-size: 1em !important;}
@@ -221,10 +255,21 @@ form{color: #656565;}
     padding-right: 20px;
     height: 430px;
   }
+  .sector-04{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 430px;
+  }
   #img-web-desk{width: 800px;float: right;}
   .web{height: 475px;}
   .item-list-2 li i .icon-size{width: 50px;}
   .item-list-2 li{margin-left: 5px; margin-right: 5px;}
+  #img-3d{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+  }
 }
 @media (max-width: 480px) {
   .sector-01{
@@ -245,9 +290,16 @@ form{color: #656565;}
     padding-right: 20px;
     height: 475px;
   }
+  .sector-04{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 475px;
+  }
   #img-web-desk{width: 700px;}
   .web{height: 460px;}
   .item-list li{margin-left: 10px;margin-right: 10px;}
+  .model{height: 560px;}
 }
 @media (max-width: 414px) {
   .sector-01{
@@ -265,6 +317,11 @@ form{color: #656565;}
     padding-left: 15px;
     padding-right: 15px;
   }
+  .sector-04{
+    height: 530px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   #img-web-desk{width: 600px;padding-top: 45%;}
   .web{height: 615px;}
 }
@@ -272,11 +329,13 @@ form{color: #656565;}
   .sector-01{height: 520px;}
   .sector-02{height: 520px;}
   .sector-03{height: 520px;}
+  .sector-04{height: 520px;}
   .imgvr{height: 220px;}
   .imgvr img{width: 280px;}
   .item-list li{margin-left: 5px;margin-right: 5px;}
   .item-list-2 li{margin-left: 5px;margin-right: 5px; font-size: 0.9em;}
   .item-list-3 li{margin-left: 5px;margin-right: 5px;}
+  .item-list-4 li{margin-left: 5px;margin-right: 5px;}
   #img-web-desk{padding-top: 20%;}
   .web{height: 505px;}
   .icon-size{width: 30px;height: 30px;}
