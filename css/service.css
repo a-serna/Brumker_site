@@ -2,29 +2,11 @@
 /*css file*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
 
-article{
-  margin-top: 50px;
-}
-
-.web{
-  height: 610px;
-}
-
-article .row{
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-article p{
-  font-size: 1.3em !important;
-  line-height: normal;
-  margin-top: 3px;
-}
-
-.imgvr{
-  height: 511px;
-}
-
+article{margin-top: 0px;}
+.web{height: 610px;}
+article .row{margin-bottom: 0px;padding-bottom: 0px;}
+article p{font-size: 1.3em !important;line-height: normal;margin-top: 3px;}
+.imgvr{height: 511px;}
 .web-desk{
   position: relative;
   top: -110px;
@@ -34,15 +16,8 @@ article p{
   padding: 0px !important;
   overflow: hidden;
 }
-
-.web-desk .col{
-  padding: 0px !important;
-}
-
-#img-web-desk{
-  width: 100%;
-}
-
+.web-desk .col{padding: 0px !important;}
+#img-web-desk{width: 100%;}
 .sector-01{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -53,66 +28,47 @@ article p{
   height: 440px;
   overflow: hidden;
 }
-
-.title{
-  font-size: 2em;
-}
-
+.title{font-size: 2em;}
 .item-list{
   opacity: 0;
   display: flex !important;
   display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
 }
-
-.item-list li{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.item-list li p{
-  margin-top: 0px;
-}
-
+.item-list li{margin-left: 20px;margin-right: 20px;}
+.item-list li p{margin-top: 0px;}
 .icon-size{
   margin-left: auto;
   margin-right: auto;
   width: 50px;
   height: 50px;
 }
-
 #img-man{
   position: relative;
   top: -380px;
   left: 490px;
   opacity: 0;
 }
-
 #img-ach{
   position: relative;
   top: -70px;
   left: 100px;
   opacity: 0;
 }
-
 #img-web{
   opacity: 0;
   position: relative;
   top: -40px;
 }
-
-form{
-  color: #656565;
-}
-
-.text{
+#img-house{
   opacity: 0;
+  position: relative;
+  top: -70px;
+  left: 35px;
 }
-
-#cotizar{
-  opacity: 0;
-}
-
+form{color: #656565;}
+.text{opacity: 0;}
+#cotizar{opacity: 0;}
 .sector-02{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -123,38 +79,22 @@ form{
   height: 440px;
   overflow: hidden;
 }
-
 .item-list-2{
   opacity: 0;
   display: flex !important;
   display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
 }
-
-.item-list-2 li{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.item-list-2 li p{
-  margin-top: 0px;
-}
-
-.text-2{
-  opacity: 0;
-}
-
-#cotizar-2{
-  opacity: 0;
-}
-
+.item-list-2 li{margin-left: 20px;margin-right: 20px;}
+.item-list-2 li p{margin-top: 0px;}
+.text-2{opacity: 0;}
+#cotizar-2{opacity: 0;}
 #img-interactive{
   position: relative;
   top: -300px;
   left: 50px;
   opacity: 0;
 }
-
 .sector-03{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -165,36 +105,37 @@ form{
   height: 440px;
   overflow: hidden;
 }
-
 .item-list-3{
   opacity: 0;
   display: flex !important;
   display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
 }
-
-.item-list-3 li{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.item-list-3 li p{
-  margin-top: 0px;
-}
-
-.text-3{
-  opacity: 0;
-}
-
-#cotizar-3{
-  opacity: 0;
-}
-
+.item-list-3 li{margin-left: 20px;margin-right: 20px;}
+.item-list-3 li p{margin-top: 0px;}
+.text-3{opacity: 0;}
+#cotizar-3{opacity: 0;}
 #img-app{
   position: relative;
   top: -70px;
   left: 50px;
   opacity: 0;
+}
+.sector-04{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(84, 181, 242);
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 440px;
+  overflow: hidden;
+}
+#img-producto{
+  opacity: 0;
+  position: relative;
+  top: -315px;
+  left: 140px;
 }
 
 @media (min-width: 1367px) {
@@ -328,7 +269,6 @@ form{
   .web{height: 615px;}
 }
 @media (max-width: 380px) {
-  article{margin-top: 10px;}
   .sector-01{height: 520px;}
   .sector-02{height: 520px;}
   .sector-03{height: 520px;}
