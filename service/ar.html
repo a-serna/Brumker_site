@@ -59,7 +59,350 @@
       </ul>
     </header>
 
+    <article class="web">
+      <div class="row container">
+        <div class="col s12">
+          <h6 class="fadeInDown">Web / App</h6>
+        </div>
+        <div class="col s12 m5">
+          <p class="fadeInLeftBig grey-text text-darken-2">Diseño y desarrollo de sitios web y aplicaciones a la medida de las necesidades de tus usuarios.</p>
+          <div class="center-align">
+            <h2 class="fadeIn">Descubre como un sitio web o una app puede ayudar en tu negocio.</h2>
+            <a href="#sector" class="fadeIn"><i class="hvr-pulse-grow material-icons icon-modify">expand_more</i></a>
+          </div>
+        </div>
+      </div>
+      <div class="web-desk row center-align">
+        <div class="col s12">
+          <img class="bounceInRight" id="img-web-desk" src="../assets/imagenes/web-app1.png" alt="web-app">
+        </div>
+      </div>
+    </article>
 
+    <main id="sector" class="scrollspy">
+      <div class="row sector-01">
+        <div class="col s12 title">
+          <h1 class="text">Web negocios</h1>
+        </div>
+        <div class="col s12 m6">
+          <P class="text">Creamos sitios web e-commerce e informativos para que tus productos y servicios esten al alcance de tus clientes.</P>
+          <ul class="item-list">
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/ui-ux.svg" class="icon-size" alt="ui-ux_icon" title="ui-ux_icon"></i>
+              <p>Ui/Ux</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/responsive.svg" class="icon-size" alt="responsive_icon" title="responsive_icon"></i>
+              <p>Multiplataforma</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/e-commerce.svg" class="icon-size" alt="e-commerce_icon" title="e-commerce-icon"></i>
+              <p>e-commerce</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/seo.svg" class="icon-size" alt="seo_icon" title="seo-icon"></i>
+              <p>SEO</p>
+            </li>
+          </ul>
+          <a href="#modal1" class="modal-trigger waves-effect waves-light btn" id="cotizar">Cotizar servicio</a>
+          <!-- Modal formulario -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col s12 center-align">
+                  <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                  <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="service.php" method="post" class="col s12">
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="first_name" id="first_name" type="text" class="validate">
+                      <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="enterprise" id="enterprise" type="text">
+                       <label for="enterprise">Marca o empresa</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12 m6">
+                       <input name="email" id="email" type="email" class="validate">
+                       <label for="email" data-error="wrong" data-success="ok">Email</label>
+                     </div>
+                     <div class="input-field col s12 m6">
+                        <select name="service">
+                          <option value="" disabled selected>---</option>
+                          <option value="web-negocios">Web negocios</option>
+                          <option value="web-interactiva">Web interactiva</option>
+                          <option value="app">App</option>
+                        </select>
+                        <label>Selecciona el servicio que deseas</label>
+                      </div>
+                   </div>
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="tel" id="tel" type="number">
+                      <label for="tel">Teléfono</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="cel" id="tel" type="number">
+                       <label for="cel">Celular</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12">
+                      <p class="grey-text">Presupuesto:</p>
+                      <div class="input-field inline">
+                        <input name="budget" id="budget" type="text">
+                        <label for="budget">$(COP)</label>
+                      </div>
+                      <div class="col s12 m6">
+                        <p>
+                          <input name="budget_check" type="checkbox" id="test5" />
+                          <label for="test5">Prefiero hablarlo personalmente</label>
+                        </p>
+                      </div>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Especificaciones</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12 center-align">
+                        <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                        <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
+                     </div>
+                   </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <img id="img-web" src="../assets/imagenes/web-app2.png" alt="wed-device">
+        </div>
+      </div>
+
+      <div class="row sector-02">
+        <div class="col s12 title right-align">
+          <h1 class="text-2">Web interactiva</h1>
+        </div>
+        <div class="col s12 m6 offset-m6 right-align">
+          <P class="text-2">Sitios web con contenidos multimedia como videos, animaciones y juegos para promocionar tus productos.</P>
+          <ul class="item-list-2">
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/ui-ux.svg" class="icon-size" alt="ui-ux_icon" title="ui-ux_icon"></i>
+              <p>Ui/Ux</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/responsive.svg" class="icon-size" alt="responsive_icon" title="responsive_icon"></i>
+              <p>Multiplataforma</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/multimedia.svg" class="icon-size" alt="video_icon" title="video-icon"></i>
+              <p>Multimedia</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/seo.svg" class="icon-size" alt="seo_icon" title="seo-icon"></i>
+              <p>SEO</p>
+            </li>
+          </ul>
+          <a href="#modal1" class="modal-trigger waves-effect waves-light btn red darken-1" id="cotizar-2">Cotizar servicio</a>
+          <!-- Modal formulario -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col s12 center-align">
+                  <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                  <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="service.php" method="post" class="col s12">
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="first_name" id="first_name" type="text" class="validate">
+                      <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="enterprise" id="enterprise" type="text">
+                       <label for="enterprise">Marca o empresa</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12 m6">
+                       <input name="email" id="email" type="email" class="validate">
+                       <label for="email" data-error="wrong" data-success="ok">Email</label>
+                     </div>
+                     <div class="input-field col s12 m6">
+                        <select name="service">
+                          <option value="" disabled selected>---</option>
+                          <option value="web-negocios">Web negocios</option>
+                          <option value="web-interactiva">Web interactiva</option>
+                          <option value="app">App</option>
+                        </select>
+                        <label>Selecciona el servicio que deseas</label>
+                      </div>
+                   </div>
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="tel" id="tel" type="number">
+                      <label for="tel">Teléfono</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="cel" id="tel" type="number">
+                       <label for="cel">Celular</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12">
+                      <p class="grey-text">Presupuesto:</p>
+                      <div class="input-field inline">
+                        <input name="budget" id="budget" type="text">
+                        <label for="budget">$(COP)</label>
+                      </div>
+                      <div class="col s12 m6">
+                        <p>
+                          <input name="budget_check" type="checkbox" id="test5" />
+                          <label for="test5">Prefiero hablarlo personalmente</label>
+                        </p>
+                      </div>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Especificaciones</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12 center-align">
+                        <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                        <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
+                     </div>
+                   </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <img id="img-interactive" src="../assets/imagenes/web-app4.png" alt="wed-device">
+        </div>
+      </div>
+
+      <div class="row sector-03">
+        <div class="col s12 title">
+          <h1 class="text-3">App</h1>
+        </div>
+        <div class="col s12 m6">
+          <P class="text-3">Diseñamos y desarrollamos aplicaciones móviles y web pensando en las necesidades de los usuarios finales y brindando un acompañamiento y asesoramiento continuo.</p>
+          <ul class="item-list-3">
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/ui-ux.svg" class="icon-size" alt="ui-ux_icon" title="ui-ux_icon"></i>
+              <p>Ui/Ux</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/responsive.svg" class="icon-size" alt="responsive_icon" title="responsive_icon"></i>
+              <p>Multiplataforma</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push">
+                <img src="../assets/imagenes/android.svg" class="icon-size" alt="android_icon" title="android_icon">
+                <img src="../assets/imagenes/apple.svg" class="icon-size" alt="android_icon" title="android_icon">
+              </i>
+              <p>apps hibridas</p>
+            </li>
+          </ul>
+          <a href="#modal1" class="modal-trigger waves-effect waves-light btn blue accent-2" id="cotizar-3">Cotizar servicio</a>
+          <!-- Modal formulario -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col s12 center-align">
+                  <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                  <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="service.php" method="post" class="col s12">
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="first_name" id="first_name" type="text" class="validate">
+                      <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="enterprise" id="enterprise" type="text">
+                       <label for="enterprise">Marca o empresa</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12 m6">
+                       <input name="email" id="email" type="email" class="validate">
+                       <label for="email" data-error="wrong" data-success="ok">Email</label>
+                     </div>
+                     <div class="input-field col s12 m6">
+                        <select name="service">
+                          <option value="" disabled selected>---</option>
+                          <option value="web-negocios">Web negocios</option>
+                          <option value="web-interactiva">Web interactiva</option>
+                          <option value="app">App</option>
+                        </select>
+                        <label>Selecciona el servicio que deseas</label>
+                      </div>
+                   </div>
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="tel" id="tel" type="number">
+                      <label for="tel">Teléfono</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="cel" id="tel" type="number">
+                       <label for="cel">Celular</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12">
+                      <p class="grey-text">Presupuesto:</p>
+                      <div class="input-field inline">
+                        <input name="budget" id="budget" type="text">
+                        <label for="budget">$(COP)</label>
+                      </div>
+                      <div class="col s12 m6">
+                        <p>
+                          <input name="budget_check" type="checkbox" id="test5" />
+                          <label for="test5">Prefiero hablarlo personalmente</label>
+                        </p>
+                      </div>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Especificaciones</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12 center-align">
+                        <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                        <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
+                     </div>
+                   </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <img id="img-app" src="../assets/imagenes/web-app3.png" alt="wed-device">
+        </div>
+      </div>
+    </main>
 
     <footer>
       <div class="container">
