@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="fusiona el mundo real y el digital con aplicaciones en realidad aumentada para tus productos, marcas y campañas publicitarias.">
     <meta name="google-site-verification" content="APIKF3EMl2gmorArETvw63hEmqKi0UwR3UFAwKve-rM"/>
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Realidad aumentada, AR, aplicaciones">
     <meta name=”robots” content=”index, follow”>
     <meta name="author" content="Brumker">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -15,12 +15,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <!-- css -->
     <link rel="stylesheet" href="../css/brumker.css">
+    <link rel="stylesheet" href="../css/service.css">
+    <link rel="stylesheet" href="../css/animation.css">
     <!--flavicon-->
     <link rel="icon" href="../assets/imagenes/brumker_flavicon.png" type="image/png">
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- js -->
     <script src="../js/brumker.js" charset="utf-8"></script>
+    <script src="../js/animation.js" charset="utf-8"></script>
   </head>
   <body>
 
@@ -62,17 +65,17 @@
     <article class="web">
       <div class="row container">
         <div class="col s12">
-          <h6 class="fadeInDown">Web / App</h6>
+          <h6 class="fadeInDown">Realidad aumentada</h6>
         </div>
         <div class="col s12 m5">
-          <p class="fadeInLeftBig grey-text text-darken-2">Diseño y desarrollo de sitios web y aplicaciones a la medida de las necesidades de tus usuarios.</p>
+          <p class="fadeInLeftBig grey-text text-darken-2">Fusiona el mundo real y el digital en tus proyectos, productos y marcas.</p>
           <div class="center-align">
-            <h2 class="fadeIn">Descubre como un sitio web o una app puede ayudar en tu negocio.</h2>
+            <h2 class="fadeIn">Descubre como la realidad aumentada puede ayudar en tu negocio.</h2>
             <a href="#sector" class="fadeIn"><i class="hvr-pulse-grow material-icons icon-modify">expand_more</i></a>
           </div>
         </div>
+        <div class="web-desk row center-align">
       </div>
-      <div class="web-desk row center-align">
         <div class="col s12">
           <img class="bounceInRight" id="img-web-desk" src="../assets/imagenes/web-app1.png" alt="web-app">
         </div>
@@ -82,7 +85,7 @@
     <main id="sector" class="scrollspy">
       <div class="row sector-01">
         <div class="col s12 title">
-          <h1 class="text">Web negocios</h1>
+          <h1 class="text">AR inmobiliaria</h1>
         </div>
         <div class="col s12 m6">
           <P class="text">Creamos sitios web e-commerce e informativos para que tus productos y servicios esten al alcance de tus clientes.</P>
@@ -190,7 +193,7 @@
 
       <div class="row sector-02">
         <div class="col s12 title right-align">
-          <h1 class="text-2">Web interactiva</h1>
+          <h1 class="text-2">AR marketing</h1>
         </div>
         <div class="col s12 m6 offset-m6 right-align">
           <P class="text-2">Sitios web con contenidos multimedia como videos, animaciones y juegos para promocionar tus productos.</P>
@@ -298,7 +301,7 @@
 
       <div class="row sector-03">
         <div class="col s12 title">
-          <h1 class="text-3">App</h1>
+          <h1 class="text-3">AR educación</h1>
         </div>
         <div class="col s12 m6">
           <P class="text-3">Diseñamos y desarrollamos aplicaciones móviles y web pensando en las necesidades de los usuarios finales y brindando un acompañamiento y asesoramiento continuo.</p>
@@ -431,6 +434,30 @@
       </div>
     </footer>
 
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 m8 s12">
+            <h1><i class="material-icons md-18">copyright</i> 2017 Brumker todos los derechos reservados</h1>
+          </div>
+          <div class="col l4 offset-l2 m4 s12">
+            <h1><a class="white-text" href="terminos-y-condiciones.html">Términos y condiciones</a></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy({
+          scrollOffset: 0,
+        });
+        $('.modal').css({"width":"80%"}).modal({
+          opacity: .7, // Opacity of modal background
+        });
+         $('select').material_select();
+      });
+    </script>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
