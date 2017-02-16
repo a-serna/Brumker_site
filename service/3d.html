@@ -2,30 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Modelado 3D arquitectónico, de producto y personajes para publicidad">
     <meta name="google-site-verification" content="APIKF3EMl2gmorArETvw63hEmqKi0UwR3UFAwKve-rM"/>
-    <meta name="keywords" content="">
+    <meta name="keywords" content="aquitectura 3d, producto, personajes, modelado, 3D.">
     <meta name=”robots” content=”index, follow”>
     <meta name="author" content="Brumker">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title></title>
+    <title>3D | Creamos, diseñamos, sorprendemos</title>
     <!-- cdn jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <!-- css -->
     <link rel="stylesheet" href="../css/brumker.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" href="../css/service.css">
     <!--flavicon-->
     <link rel="icon" href="../assets/imagenes/brumker_flavicon.png" type="image/png">
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- js -->
     <script src="../js/brumker.js" charset="utf-8"></script>
+    <script src="../js/animation.js" charset="utf-8"></script>
   </head>
   <body>
 
     <header class="container transparent">
-
       <ul id="slide-out" class="side-nav">
         <li><div class="userView menu_oculto">
           <a href="../index.html"><img class="circle" src="../assets/imagenes/bk_icon.png"></a>
@@ -59,12 +61,221 @@
       </ul>
     </header>
 
-    <article>
-
+    <article class="model">
+      <div class="row container">
+        <div class="col s12">
+          <h6 class="fadeInDown">Modelado 3D</h6>
+        </div>
+        <div class="col s12 m5">
+          <p class="fadeInLeftBig grey-text text-darken-2">Creamos modelos y visualizaciones 3d de productos y proyectos arquitectónicos.</p>
+          <div class="center-align">
+            <h2 class="fadeIn">Descubre como la magia del 3D puede ayudar en tu negocio.</h2>
+            <a href="#sector" class="fadeIn"><i class="hvr-pulse-grow material-icons icon-modify">expand_more</i></a>
+          </div>
+        </div>
+        <div class="col s12 m7">
+          <img class="bounceInRight" id="img-3d" src="../assets/imagenes/house3.png" alt="house">
+        </div>
+      </div>
     </article>
 
-    <main></main>
+    <main id="sector" class="scrollspy">
+      <div class="row sector-01">
+        <div class="col s12 title">
+          <h1 class="text">3D arquitectónico</h1>
+        </div>
+        <div class="col s12 m6">
+          <P class="text">Muestra proyectos arquitectónicos a tus clientes mucho antes de empezar a construirlos.</P>
+          <ul class="item-list">
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/img.svg" class="icon-size" alt="img_icon" title="img_icon"></i>
+              <p>Render</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/video.svg" class="icon-size" alt="video_icon" title="video_icon"></i>
+              <p>Animaciones</p>
+            </li>
+          </ul>
+          <a href="#modal1" class="modal-trigger waves-effect waves-light btn" id="cotizar">Cotizar servicio</a>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col s12 center-align">
+                  <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                  <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="service.php" method="post" class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12 m6 left-align">
+                      <input name="first_name" id="first_name" type="text" class="validate">
+                      <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <input name="enterprise" id="enterprise" type="text">
+                      <label for="enterprise">Marca o empresa</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 m6 left-align">
+                      <input name="email" id="email" type="email" class="validate">
+                      <label for="email" data-error="wrong" data-success="ok">Email</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <select name="service">
+                        <option value="" disabled selected>---</option>
+                        <option value="3d-arch">3d arquitectónico</option>
+                        <option value="3d-producto">3d producto</option>
+                      </select>
+                      <label>Selecciona el servicio que deseas</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="tel" id="tel" type="number">
+                      <label for="tel">Teléfono</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <input name="cel" id="tel" type="number">
+                      <label for="cel">Celular</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="grey-text">Presupuesto:</p>
+                      <div class="input-field inline">
+                        <input name="budget" id="budget" type="text">
+                        <label for="budget">$(COP)</label>
+                      </div>
+                      <div class="col s12 m6">
+                        <p>
+                          <input name="budget_check" type="checkbox" id="test5" />
+                          <label for="test5">Prefiero hablarlo personalmente</label>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Especificaciones</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 center-align">
+                      <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                      <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <img id="img-house" src="../assets/imagenes/house2.png" alt="house-3d">
+        </div>
+      </div>
 
+      <div class="row sector-04">
+        <div class="col s12 title right-align">
+          <h1 class="text-2">3D producto</h1>
+        </div>
+        <div class="col s12 m6 offset-m6 right-align">
+          <P class="text-2">Nuevos productos, nuevos empaques. Sorprende a tus consumidores con la publicidad de tus productos.</p>
+          <ul class="item-list-4 right-align">
+            <li>
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/img.svg" class="icon-size" alt="img_icon" title="img_icon"></i>
+              <p>Render</p>
+            </li>
+            <li>
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/video.svg" class="icon-size" alt="video_icon" title="video_icon"></i>
+              <p>Animaciones</p>
+            </li>
+          </ul>
+          <a href="#modal1" class="modal-trigger waves-effect waves-light btn blue acent-2" id="cotizar-2">Cotizar servicio</a>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col s12 center-align">
+                  <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                  <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="service.php" method="post" class="col s12">
+                   <div class="row">
+                    <div class="input-field col s12 m6 left-align">
+                      <input name="first_name" id="first_name" type="text" class="validate">
+                      <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="enterprise" id="enterprise" type="text">
+                       <label for="enterprise">Marca o empresa</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12 m6 left-align">
+                       <input name="email" id="email" type="email" class="validate">
+                       <label for="email" data-error="wrong" data-success="ok">Email</label>
+                     </div>
+                     <div class="input-field col s12 m6">
+                        <select name="service">
+                          <option value="" disabled selected>---</option>
+                          <option value="3d-arch">3d arquitectónico</option>
+                          <option value="3d-producto">3d producto</option>
+                        </select>
+                        <label>Selecciona el servicio que deseas</label>
+                      </div>
+                   </div>
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="tel" id="tel" type="number">
+                      <label for="tel">Teléfono</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <input name="cel" id="tel" type="number">
+                      <label for="cel">Celular</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="grey-text">Presupuesto:</p>
+                      <div class="input-field inline">
+                        <input name="budget" id="budget" type="text">
+                        <label for="budget">$(COP)</label>
+                      </div>
+                      <div class="col s12 m6">
+                        <p>
+                          <input name="budget_check" type="checkbox" id="test5" />
+                          <label for="test5">Prefiero hablarlo personalmente</label>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Especificaciones</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                   <div class="col s12 center-align">
+                      <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                      <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <img id="img-producto" src="../assets/imagenes/3d-producto.png" alt="producto-3d">
+        </div>
+      </div>
+    </main>
 
     <footer>
       <div class="container">
@@ -93,6 +304,30 @@
       </div>
     </footer>
 
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 m8 s12">
+            <h1><i class="material-icons md-18">copyright</i> 2017 Brumker todos los derechos reservados</h1>
+          </div>
+          <div class="col l4 offset-l2 m4 s12">
+            <h1><a class="white-text" href="terminos-y-condiciones.html">Términos y condiciones</a></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy({
+          scrollOffset: 0,
+        });
+        $('.modal').css({"width":"80%"}).modal({
+          opacity: .7, // Opacity of modal background
+        });
+         $('select').material_select();
+      });
+    </script>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->

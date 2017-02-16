@@ -58,8 +58,8 @@ footer{
 #list-language {
   float: right;
   position: relative;
-  top: 0px;
-  margin-right: 3px;
+  top: -50px;
+  margin-right: 6px;
   color: #656565;
 }
 
@@ -76,7 +76,6 @@ footer{
 .menu_burguer{
   font-size: 3.5em !important;
   color: #07ae96 !important;
-  position: fixed !important;
 }
 
 .menu_oculto{
