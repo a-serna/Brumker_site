@@ -83,7 +83,7 @@
     <main id="sector" class="scrollspy">
       <div class="row sector-01">
         <div class="col s12 title">
-          <h1 class="text">Inmobiliarias y constructoras</h1>
+          <h1 class="text">VR inmobiliaria</h1>
         </div>
         <div class="col s12 m6">
           <P class="text">Creamos visualizaciones digitales de tus proyectos arquitectónicos para que tus futuros compradores puedan verlo desde cualquier parte del mundo como si se encontraran allí.</P>
@@ -101,7 +101,7 @@
               <p>Arquitectura interactiva</p>
             </li>
           </ul>
-          <a href="#modal1" class="modal-trigger waves-effect waves-light btn" id="cortizar">Cotizar servicio</a>
+          <a href="#modal1" class="modal-trigger waves-effect waves-light btn" id="cotizar">Cotizar servicio</a>
           <!-- Modal formulario -->
           <div id="modal1" class="modal">
             <div class="modal-content">
@@ -131,9 +131,9 @@
                      <div class="input-field col s12 m6">
                         <select name="service">
                           <option value="" disabled selected>---</option>
-                          <option value="foto-360">Fotografía 360°</option>
-                          <option value="videos-360">videos 360°</option>
-                          <option value="arch-interactiva">Arquitectura interactiva</option>
+                          <option value="vr-inmobiliaria">VR inmobiliaria</option>
+                          <option value="vr-publicidad">VR publicidad</option>
+                          <option value="vr-turismo">VR turismo</option>
                         </select>
                         <label>Selecciona el servicio que deseas</label>
                       </div>
@@ -185,6 +185,214 @@
         </div>
         <div class="col s12 m6 hide-on-small-only">
           <img id="img-man" src="../assets/imagenes/manheadset.png" alt="inmobiliaria-vr">
+        </div>
+      </div>
+
+      <div class="row sector-02">
+        <div class="col s12 title right-align">
+          <h1 class="text-2">VR publicidad</h1>
+        </div>
+        <div class="col s12 m6 offset-m6 right-align">
+          <P class="text-2">Capta la atención de tus consumidores enriqueciendo tus anuncios y campañas publicitarias con contenidos multimedia e información útil acerca de tu marca.</P>
+          <ul class="item-list-2">
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/3d-white.svg" class="icon-size" alt="3d_icon" title="3d_icon"></i>
+              <p>Modelado 3D</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/ux.svg" class="icon-size" alt="ux_icon" title="ux_icon"></i>
+              <p>Experiencia de usuario</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/multimedia.svg" class="icon-size" alt="video_icon" title="video-icon"></i>
+              <p>Multimedia</p>
+            </li>
+          </ul>
+          <a href="#modal1" class="modal-trigger waves-effect waves-light btn red darken-1" id="cotizar-2">Cotizar servicio</a>
+          <!-- Modal formulario -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col s12 center-align">
+                  <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                  <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="service.php" method="post" class="col s12">
+                   <div class="row">
+                    <div class="input-field col s12 m6 left-align">
+                      <input name="first_name" id="first_name" type="text" class="validate">
+                      <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="enterprise" id="enterprise" type="text">
+                       <label for="enterprise">Marca o empresa</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12 m6 left-align">
+                       <input name="email" id="email" type="email" class="validate">
+                       <label for="email" data-error="wrong" data-success="ok">Email</label>
+                     </div>
+                     <div class="input-field col s12 m6">
+                        <select name="service">
+                          <option value="" disabled selected>---</option>
+                          <option value="vr-inmobiliaria">VR inmobiliaria</option>
+                          <option value="vr-publicidad">VR publicidad</option>
+                          <option value="vr-turismo">VR turismo</option>
+                        </select>
+                        <label>Selecciona el servicio que deseas</label>
+                      </div>
+                   </div>
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="tel" id="tel" type="number">
+                      <label for="tel">Teléfono</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="cel" id="tel" type="number">
+                       <label for="cel">Celular</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12">
+                      <p class="grey-text">Presupuesto:</p>
+                      <div class="input-field inline">
+                        <input name="budget" id="budget" type="text">
+                        <label for="budget">$(COP)</label>
+                      </div>
+                      <div class="col s12 m6">
+                        <p>
+                          <input name="budget_check" type="checkbox" id="test5" />
+                          <label for="test5">Prefiero hablarlo personalmente</label>
+                        </p>
+                      </div>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Especificaciones</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12 center-align">
+                        <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                        <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
+                     </div>
+                   </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <!-- <img id="img-interactive" src="../assets/imagenes/web-app4.png" alt="wed-device"> -->
+        </div>
+      </div>
+
+      <div class="row sector-03">
+        <div class="col s12 title">
+          <h1 class="text-3">VR turismo</h1>
+        </div>
+        <div class="col s12 m6">
+          <P class="text-3">Diseñamos y desarrollamos contenidos para enriquecer el proceso educativo.</p>
+          <ul class="item-list-3">
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/3d-white.svg" class="icon-size" alt="3d_icon" title="3d_icon"></i>
+              <p>Modelado 3D</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/ux.svg" class="icon-size" alt="ux_icon" title="ux_icon"></i>
+              <p>Experiencia de usuario</p>
+            </li>
+            <li class="center-align">
+              <i class="material-icons hvr-push"><img src="../assets/imagenes/multimedia.svg" class="icon-size" alt="video_icon" title="video-icon"></i>
+              <p>Multimedia</p>
+            </li>
+          </ul>
+          <a href="#modal1" class="modal-trigger waves-effect waves-light btn blue accent-2" id="cotizar-3">Cotizar servicio</a>
+          <!-- Modal formulario -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col s12 center-align">
+                  <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                  <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
+                </div>
+              </div>
+              <div class="row">
+                <form action="service.php" method="post" class="col s12">
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="first_name" id="first_name" type="text" class="validate">
+                      <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="enterprise" id="enterprise" type="text">
+                       <label for="enterprise">Marca o empresa</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12 m6">
+                       <input name="email" id="email" type="email" class="validate">
+                       <label for="email" data-error="wrong" data-success="ok">Email</label>
+                     </div>
+                     <div class="input-field col s12 m6">
+                        <select name="service">
+                          <option value="" disabled selected>---</option>
+                          <option value="vr-inmobiliria">VR inmobiliaria</option>
+                          <option value="vr-publicidad">VR publicidad</option>
+                          <option value="vr-turismo">VR turismo</option>
+                        </select>
+                        <label>Selecciona el servicio que deseas</label>
+                      </div>
+                   </div>
+                   <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input name="tel" id="tel" type="number">
+                      <label for="tel">Teléfono</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                       <input name="cel" id="tel" type="number">
+                       <label for="cel">Celular</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12">
+                      <p class="grey-text">Presupuesto:</p>
+                      <div class="input-field inline">
+                        <input name="budget" id="budget" type="text">
+                        <label for="budget">$(COP)</label>
+                      </div>
+                      <div class="col s12 m6">
+                        <p>
+                          <input name="budget_check" type="checkbox" id="test5" />
+                          <label for="test5">Prefiero hablarlo personalmente</label>
+                        </p>
+                      </div>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Especificaciones</label>
+                    </div>
+                   </div>
+                   <div class="row">
+                     <div class="col s12 center-align">
+                        <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                        <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
+                     </div>
+                   </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 hide-on-small-only">
+          <!-- <img id="img-app" src="../assets/imagenes/web-app3.png" alt="wed-device"> -->
         </div>
       </div>
     </main>
