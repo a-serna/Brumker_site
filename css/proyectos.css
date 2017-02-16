@@ -3,10 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
 
 /*PROYECTOS.HTML MAQUETACIÓN*/
-.proyectos-container{
-  margin-top: 25px;
-}
-
 .proyectos-selectores{
   cursor: pointer;
   font-size: 1em;
