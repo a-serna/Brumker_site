@@ -103,6 +103,12 @@ form{color: #656565;}
   left: 50px;
   opacity: 0;
 }
+#ar-publicidad{
+  position: relative;
+  top: -255px;
+  left: 50px;
+  opacity: 0;
+}
 .sector-03{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -165,6 +171,7 @@ form{color: #656565;}
   #img-man{top: -380px;left: 480px;}
   .web{height: 590px;}
   .ar-img{width: 140%;}
+  #ar-publicidad{top: -260px; left: 0px;}
 }
 @media (max-width: 1024px) {
   .imgvr{height: 443px;}
@@ -173,12 +180,8 @@ form{color: #656565;}
   #img-web{width: 100%;}
   #img-house{left: 0px;}
   #img-producto{left: 100px;}
-  #img-3d{
-    width: 120%;
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
+  #img-3d{width: 120%; position: relative; top: 0px; left: 0px;}
+  #ar-publicidad{top: -285px;}
 }
 @media (max-width: 992px) {
   .imgvr img{margin-left: 80px;margin-right: auto;}
@@ -201,6 +204,7 @@ form{color: #656565;}
   #img-web-desk{width: 1000px;float: right;}
   #img-web{top: 40px;width: 100%;left: 40px;}
   #img-interactive{left: -40px;}
+  #ar-publicidad{left: -40px;}
   #img-app{top: -40px;left: -35px;}
   .item-list-2 li{margin-left: 5px; margin-right: 5px;}
   #img-3d{
@@ -215,6 +219,7 @@ form{color: #656565;}
   }
   #img-producto{left: 0px;}
   .ar-img{width: 90%;}
+  #ar-publicidad{top: -235px; left: -90px;}
 }
 @media (max-width: 768px) {
   .imgvr{height: 364px;}
@@ -239,6 +244,7 @@ form{color: #656565;}
   #img-house{left: 0px;top: 50px;}
   #img-producto{left: -35px;}
   #ar-arch{width: 110%;}
+  #ar-publicidad{top: -260px; left: -160px;}
 }
 @media (max-width: 600px) {
   article p{font-size: 1em !important;}
