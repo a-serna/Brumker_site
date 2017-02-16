@@ -14,6 +14,7 @@ $(document).ready(function(){
       $("#img-man").addClass('animated hinge slideInUp').css({"opacity":"1"});
       $("#img-web").addClass('animated hinge slideInUp').css({"opacity":"1"});
       $("#img-house").addClass('animated hinge slideInUp').css({"opacity":"1"});
+      $("#ar-arch").addClass('animated hinge slideInUp').css({"opacity":"1"});
       $("#cotizar").addClass('animated hinge fadeIn').css({"opacity":"1"});
     };
     if (scroll > 650) {
@@ -22,6 +23,7 @@ $(document).ready(function(){
       $(".item-list-4").addClass('animated fadeIn').css({"opacity":"1"});
       $("#img-interactive").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
       $("#img-producto").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
+      $("#ar-publicidad").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
       $("#cotizar-2").addClass('animated hinge fadeIn').css({"opacity":"1"});
     };
     if (scroll > 900) {
