@@ -63,7 +63,7 @@
     <section class="container">
       <div class="row">
         <div class="s12 center-align">
-          <img class="responsive-img" src="../assets/imagenes/brumker_logo.png" alt="Brumker_Studios_logo">
+          <img class="responsive-img zoomIn" src="../assets/imagenes/brumker_logo.png" alt="Brumker_Studios_logo">
         </div>
       </div>
 
@@ -74,7 +74,7 @@
           <li><h2 class="center-align">We Generate emotional connections with people</h2></li>
           <li><h2 class="center-align">and design for future.</h2></li>
           <li><h2 class="center-align">Virtual reality, augmented reality, Web/app</h2></li>
-          <li><h2 class="center-align">Because the good ideas deserve best way to be show it.</h2></li>
+          <li><h2 class="center-align">Because good ideas deserve better ways to be shown</h2></li>
         </ul>
       </div>
     </section>
@@ -89,8 +89,8 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/BMIFJBH5iHI?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div class="nosotros">
-      <a href="index.html#service" class="white-text">
+    <div class="service-btn">
+      <a href="#service" class="white-text">
         <div class="row container hoverable">
           <div class="col s12 center-align">
             <i class="material-icons left">view_column</i>
@@ -100,10 +100,9 @@
       </a>
     </div>
 
-    <div class="service-blocks row" id="service">
-
+    <div class="service-blocks row">
       <div class="card col s12 m6 l3">
-        <div class="card-content">
+        <div class="card-content scrollspy" id="service">
           <span class="card-title activator">
             <i class="material-icons right">more_vert</i>
             <h5>Virtual reality</h5>
@@ -114,7 +113,7 @@
             <i class="material-icons right">cancel</i>
             <h5>Virtual reality</h5>
           </span>
-          <P>We create experience and visualization in virtual reality for reach greater interactivity and remembrance of your projects, products and brand.</P>
+          <P>It makes your customers remember and interact with your projects, products and brands through experiences and visualizations in virtual reality.</P>
           <div class="center-align">
             <a href="../service/vr.html">
               <i class="material-icons waves-effect waves-circle waves-light btn-floating">add</i>
@@ -134,7 +133,7 @@
             <i class="material-icons right">cancel</i>
             <h5>Augmented reality</h5>
           </span>
-          <P>We launch your products generating interactivity with new content for your clients.</P>
+          <P>Boost your products with novel and interactive content.</P>
           <div class="center-align">
             <a href="../service/ar.html">
               <i class="material-icons waves-effect waves-circle waves-light btn-floating">add</i>
@@ -154,7 +153,7 @@
             <i class="material-icons right">cancel</i>
             <h5>Web / App</h5>
           </span>
-          <P>We develop your web site and mobile app, with contents that will provide a new user experience for your digital project.</P>
+          <P>We develop your web pages projects and applications, with contents that offer a new experience to the users of your online site.</P>
           <div class="center-align">
             <a href="../service/web.html">
               <i class="material-icons waves-effect waves-circle waves-light btn-floating">add</i>
@@ -174,7 +173,7 @@
             <i class="material-icons right">cancel</i>
             <h5>3D modeling</h5>
           </span>
-          <P> We create characters for your audiovisual projects, Images for advertising campaigns, and Architectural visualization.</P>
+          <P>We create images and animations for advertising campaigns and architectural projects.</P>
           <div class="center-align">
             <a href="../service/3d.html">
               <i class="material-icons waves-effect waves-circle waves-light btn-floating">add</i>
@@ -226,6 +225,14 @@
       </div>
     </div>
 
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy({
+          scrollOffset: 0,
+        }
+        );
+      });
+    </script>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
