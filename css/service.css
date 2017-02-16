@@ -254,7 +254,7 @@ form{color: #656565;}
   article h1{font-size: 1em !important;}
   h6{font-size: 2em;}
   .imgvr{height: 285px;}
-  .imgvr img{width: 360px;}
+  .imgvr img{width: 360px; position: static;}
   .sector-01{
     padding-top: 30px;
     padding-left: 20px;
