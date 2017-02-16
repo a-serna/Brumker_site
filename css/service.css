@@ -164,6 +164,7 @@ form{color: #656565;}
   .imgvr img{width: 500px;}
   #img-man{top: -380px;left: 480px;}
   .web{height: 590px;}
+  .ar-img{width: 140%;}
 }
 @media (max-width: 1024px) {
   .imgvr{height: 443px;}
@@ -213,6 +214,7 @@ form{color: #656565;}
     width: 120%;
   }
   #img-producto{left: 0px;}
+  .ar-img{width: 115%;}
 }
 @media (max-width: 768px) {
   .imgvr{height: 364px;}
@@ -276,6 +278,7 @@ form{color: #656565;}
     left: 0px;
     top: 0px;
   }
+  .ar-img{width: 100%;}
 }
 @media (max-width: 480px) {
   .sector-01{
