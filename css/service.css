@@ -139,6 +139,12 @@ form{color: #656565;}
   left: 50px;
   opacity: 0;
 }
+#vr-turismo{
+  position: relative;
+  top: -70px;
+  left: 50px;
+  opacity: 0;
+}
 .sector-04{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -209,6 +215,7 @@ form{color: #656565;}
   #img-interactive{left: -40px;}
   #ar-publicidad{left: -40px;}
   #img-app{top: -40px; left: -35px;}
+  #vr-turismo{top: -40px; left: -35px;}
   #ar-educacion{top: -40px; left: 0px;}
   .item-list-2 li{margin-left: 5px; margin-right: 5px;}
   #img-3d{
@@ -249,6 +256,7 @@ form{color: #656565;}
   #img-web{top: -35px; left: 75px; width: 300px;}
   #img-interactive{left: -80px; width: 320px; top: -190px;}
   #img-app{top: -30px; left: -30px; width: 350px;}
+  #vr-turismo{top: -30px; left: -30px; width: 350px;}
   #ar-educacion{top: -30px; left: 50px; width: 100%;}
   .item-list-2 li i .icon-size{width: 40px;}
   .item-list-2 li{margin-left: 3px; margin-right: 3px;}

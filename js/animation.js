@@ -31,6 +31,7 @@ $(document).ready(function(){
       $(".item-list-3").addClass('animated hinge fadeIn').css({"opacity":"1"});
       $("#cotizar-3").addClass('animated hinge fadeIn').css({"opacity":"1"});
       $("#img-app").addClass('animated hinge fadeInRightBig').css({"opacity":"1"});
+      $("#vr-turismo").addClass('animated hinge fadeInRightBig').css({"opacity":"1"});
       $("#ar-educacion").addClass('animated hinge fadeInRightBig').css({"opacity":"1"});
     }
 
