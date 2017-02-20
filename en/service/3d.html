@@ -190,80 +190,80 @@
               <p>Animations</p>
             </li>
           </ul>
-          <a href="#modal1" class="modal-trigger waves-effect waves-light btn blue acent-2" id="cotizar-2">Plan your project</a>
-          <div id="modal1" class="modal">
-            <div class="modal-content">
-              <div class="row">
-                <div class="col s12 center-align">
-                  <h5 class="teal-text text-accent-4">Plan your project now</h5>
-                    <p class="grey-text text-darken-1">We are the right ones to carry out your project</p>
+        </div>
+        <a href="#modal1" class="modal-trigger waves-effect waves-light btn blue acent-2" id="cotizar-2">Plan your project</a>
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col s12 center-align">
+                <h5 class="teal-text text-accent-4">Plan your project now</h5>
+                  <p class="grey-text text-darken-1">We are the right ones to carry out your project</p>
+              </div>
+            </div>
+            <div class="row">
+              <form action="service.php" method="post" class="col s12">
+                 <div class="row">
+                  <div class="input-field col s12 m6 left-align">
+                    <input name="first_name" id="first_name" type="text" class="validate">
+                    <label for="first_name" data-error="wrong" data-sucess="ok">Name</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                     <input name="enterprise" id="enterprise" type="text">
+                     <label for="enterprise"> Brand or company</label>
+                  </div>
+                 </div>
+                 <div class="row">
+                   <div class="input-field col s12 m6 left-align">
+                     <input name="email" id="email" type="email" class="validate">
+                     <label for="email" data-error="wrong" data-success="ok">Email Address</label>
+                   </div>
+                   <div class="input-field col s12 m6">
+                      <select name="service">
+                        <option value="" disabled selected>---</option>
+                        <option value="3d-arch">3d arquitectónico</option>
+                        <option value="3d-producto">3d product</option>
+                      </select>
+                     <label>Choose your service</label>
+                    </div>
+                 </div>
+                 <div class="row">
+                  <div class="input-field col s12 m6">
+                    <input name="tel" id="tel" type="number">
+                    <label for="tel">Phone number</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <input name="cel" id="tel" type="number">
+                    <label for="cel">CeL NUMBER</label>
+                  </div>
                 </div>
-              </div>
-              <div class="row">
-                <form action="service.php" method="post" class="col s12">
-                   <div class="row">
-                    <div class="input-field col s12 m6 left-align">
-                      <input name="first_name" id="first_name" type="text" class="validate">
-                      <label for="first_name" data-error="wrong" data-sucess="ok">Name</label>
+                <div class="row">
+                  <div class="col s12">
+                    <p class="grey-text">Budget:</p>
+                    <div class="input-field inline">
+                      <input name="budget" id="budget" type="text">
+                      <label for="budget">$(USD)</label>
                     </div>
-                    <div class="input-field col s12 m6">
-                       <input name="enterprise" id="enterprise" type="text">
-                       <label for="enterprise"> Brand or company</label>
-                    </div>
-                   </div>
-                   <div class="row">
-                     <div class="input-field col s12 m6 left-align">
-                       <input name="email" id="email" type="email" class="validate">
-                       <label for="email" data-error="wrong" data-success="ok">Email Address</label>
-                     </div>
-                     <div class="input-field col s12 m6">
-                        <select name="service">
-                          <option value="" disabled selected>---</option>
-                          <option value="3d-arch">3d arquitectónico</option>
-                          <option value="3d-producto">3d product</option>
-                        </select>
-                       <label>Choose your service</label>
-                      </div>
-                   </div>
-                   <div class="row">
-                    <div class="input-field col s12 m6">
-                      <input name="tel" id="tel" type="number">
-                      <label for="tel">Phone number</label>
-                    </div>
-                    <div class="input-field col s12 m6">
-                      <input name="cel" id="tel" type="number">
-                      <label for="cel">CeL NUMBER</label>
+                    <div class="col s12 m6">
+                      <p>
+                        <input name="budget_check" type="checkbox" id="test6"/>
+                        <label for="test6">Personal consult</label>
+                      </p>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col s12">
-                      <p class="grey-text">Budget:</p>
-                      <div class="input-field inline">
-                        <input name="budget" id="budget" type="text">
-                        <label for="budget">$(USD)</label>
-                      </div>
-                      <div class="col s12 m6">
-                        <p>
-                          <input name="budget_check" type="checkbox" id="test6"/>
-                          <label for="test6">Personal consult</label>
-                        </p>
-                      </div>
-                    </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Specifications</label>
                   </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
-                      <label for="textarea1">Specifications</label>
-                    </div>
+                </div>
+                <div class="row">
+                 <div class="col s12 center-align">
+                    <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                    <p class="grey-text text-darken-1 center-align">We answer your request the soon as possible.</p>
                   </div>
-                  <div class="row">
-                   <div class="col s12 center-align">
-                      <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
-                      <p class="grey-text text-darken-1 center-align">We answer your request the soon as possible.</p>
-                    </div>
-                  </div>
-                </form>
-              </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
