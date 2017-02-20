@@ -1,28 +1,22 @@
 @charset "UTF-8";
 /*css file*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
-
 .contacto{
   margin: 0px 0px 0px 0px;
   background-color: white;
 }
-
-/*lado del formulario*/
 .side-left{
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-
 .mensaje{
   width: 100%;
   height: 200px;
   padding: 75px 20px 15px 300px;
 }
-
 .formulario_contacto{
   padding: 0px;
 }
-
 .input-field{
   margin-top: 0px;
   padding-left: 210px;
@@ -30,77 +24,59 @@
   padding-top: 8px;
   padding-bottom: 12px;
 }
-
 .formulario_contacto .input-field:nth-child(1){
   background-color: #4CE0CC;
 }
-
 .formulario_contacto .input-field:nth-child(2){
   background-color: #069480;
 }
-
 .formulario_contacto .input-field:nth-child(3){
   background-color: #046154;
 }
-
 .formulario_contacto .input-field:nth-child(4){
   background-color: white;
 }
-
 textarea.materialize-textarea{
   color: #656565;
 }
-
 .input-field label{
   color: white;
   padding-left: 210px;
   line-height: 0;
 }
-
 .input-field .btn{
   left: 0px !important;
 }
-
 input[type=text], input[type=email], input[type=tel]{
   border-bottom: none;
   margin: 0px 0 0px 0px;
 }
-
 .envio_contacto{
   padding-bottom: 5px;
   padding-left: 210px;
 }
-
-/*lado de la info*/
 .side-center{
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-
 .logo_contacto{height: 200px;}
 .info_contacto{height: 200px; background-color: #046154;}
 .redes_contacto{height: 200px; background-color: #069480;}
-
-/*lado del mapa*/
 .side_map{
   height: 600px;
   background-color: #046154;
 }
-
 @media (max-width:1280px){
   .input-field{
     padding-left: 190px;
     padding-top: 10px;
   }
-
   .input-field label{
     padding-left: 190px;
   }
-
   h3{
     font-size: 0.7em;
   }
-
   #you_foot{
     margin-left: 6px;
   }
@@ -110,36 +86,28 @@ input[type=text], input[type=email], input[type=tel]{
   #insta_foot{
     margin-left: 6px;
   }
-
   .mensaje{
     padding: 55px 20px 15px 200px;
   }
 }
-
 @media (max-width:1024px){
-
   h3{
     font-size: 0.9em;
   }
-
   .mensaje{
     padding: 65px 70px 15px 230px;
   }
-
   .input-field{
     padding-left: 75px;
     padding-right: 70px;
   }
-
   .input-field label{
     padding-left: 75px;
   }
-
   .envio_contacto{
     padding-left: 0px;
   }
 }
-
 @media (max-width:992px){
   #you_foot{
     margin-left: 10px;
@@ -150,28 +118,23 @@ input[type=text], input[type=email], input[type=tel]{
   #insta_foot{
     margin-left: 10px;
   }
-
   .responsive-img{
     width: 50%;
     height: auto;
   }
 }
-
 @media (max-width:480px){
   .mensaje{
     padding: 35px 70px 15px 100px;
   }
-
   .input-field{
     padding-left: 30px;
     padding-right: 30px;
   }
-
   .input-field label{
     padding-left: 30px;
   }
 }
-
 @media (max-width:320px){
   .mensaje{
     padding: 30px 50px 15px 80px;

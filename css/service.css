@@ -1,37 +1,29 @@
 @charset "UTF-8";
 /*css file*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
-
 article{
   margin-top: 0px;
 }
-
 .web{
   height: 635px;
 }
-
 .model{
   height: 560px;
 }
-
 .ar{
   height: 560px;
 }
-
 article .row{
   margin-bottom: 0px; padding-bottom: 0px;
 }
-
 article p{
   font-size: 1.3em !important;
   line-height: normal;
   margin-top: 3px;
 }
-
 .imgvr{
   height: 511px;
 }
-
 .web-desk{
   height: auto;
   z-index: -2;
@@ -39,20 +31,16 @@ article p{
   padding: 0px !important;
   overflow: hidden;
 }
-
 .web-desk .col{
   padding: 0px !important;
 }
-
 #img-web-desk{
   width: 100%;
 }
-
 #img-3d{
   width: 130%;
   overflow: hidden;
 }
-
 .sector-01{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -63,79 +51,65 @@ article p{
   height: 440px;
   overflow: hidden;
 }
-
 .title{
   font-size: 2em;
 }
-
 .item-list{
   opacity: 0;
   display: flex !important;
   display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
 }
-
 .item-list li{
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .item-list li p{
   margin-top: 0px;
 }
-
 .icon-size{
   margin-left: auto;
   margin-right: auto;
   width: 50px;
   height: 50px;
 }
-
 #img-man{
   position: relative;
   top: -380px;
   left: 490px;
   opacity: 0;
 }
-
 #img-ach{
   position: relative;
   top: -70px;
   left: 100px;
   opacity: 0;
 }
-
 #img-web{
   opacity: 0;
   position: relative;
   top: -40px;
 }
-
 #img-house{
   opacity: 0;
   position: relative;
   top: -70px;
   left: 35px;
 }
-
 #ar-arch{
   opacity: 0;
   position: relative;
   top: -40px;
 }
-
 form{
   color: #656565;
 }
-
 .text{
   opacity: 0;
 }
-
 #cotizar{
   opacity: 0;
 }
-
 .sector-02{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -146,7 +120,6 @@ form{
   height: 440px;
   overflow: hidden;
 }
-
 .item-list-2{
   opacity: 0;
   display: flex !important;
@@ -154,46 +127,38 @@ form{
   font-family: 'Oswald', sans-serif !important;
   float: right !important;
 }
-
 .item-list-2 li{
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .item-list-2 li p{
   margin-top: 0px;
 }
-
 .text-2{
   opacity: 0;
 }
-
 #cotizar-2{
   opacity: 0;
   float: right;
 }
-
 #img-interactive{
   position: relative;
   top: -300px;
   left: 50px;
   opacity: 0;
 }
-
 #ar-publicidad{
   position: relative;
   top: -255px;
   left: 50px;
   opacity: 0;
 }
-
 #vr-publicidad{
   position: relative;
   top: -260px;
   left: 0px;
   opacity: 0;
 }
-
 .sector-03{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -204,45 +169,37 @@ form{
   height: 440px;
   overflow: hidden;
 }
-
 .item-list-3{
   opacity: 0;
   display: flex !important;
   display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
 }
-
 .item-list-3 li{
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .item-list-3 li p{
   margin-top: 0px;
 }
-
 .text-3{
   opacity: 0;
 }
-
 #cotizar-3{
   opacity: 0;
 }
-
 #img-app{
   position: relative;
   top: -70px;
   left: 50px;
   opacity: 0;
 }
-
 #ar-educacion{
   position: relative;
   top: -70px;
   left: 50px;
   opacity: 0;
 }
-
 #vr-turismo{
   position: relative;
   top: -70px;
@@ -250,7 +207,6 @@ form{
   opacity: 0;
   width: auto;
 }
-
 .sector-04{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -261,7 +217,6 @@ form{
   height: 440px;
   overflow: hidden;
 }
-
 .item-list-4{
   opacity: 0;
   display: flex !important;
@@ -269,30 +224,25 @@ form{
   font-family: 'Oswald', sans-serif !important;
   float: right !important;
 }
-
 .item-list-4 li{
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .item-list-4 li p{
   margin-top: 0px;
 }
-
 #img-producto{
   opacity: 0;
   position: relative;
   top: -315px;
   left: 140px;
 }
-
 @media (min-width: 1367px) {
   #img-man{top: -380px; left: 750px;}
   .web{height: 680px;}
   .model{height: 630px;}
   #ar-publicidad{top: -216px;}
 }
-
 @media (max-width: 1280px) {
   .imgvr{height: 395px;}
   .imgvr img{width: 500px;}
@@ -302,7 +252,6 @@ form{
   #ar-publicidad{top: -260px; left: 0px;}
   .web{height: 600px;}
 }
-
 @media (max-width: 1024px) {
   .imgvr{height: 425px;}
   .imgvr img{width: 540px;}
@@ -357,7 +306,6 @@ form{
   #img-producto{left: 0px;}
   .model{height: 460px;}
 }
-
 @media (max-width: 768px) {
   .imgvr{height: 364px;}
   .imgvr img{
@@ -398,7 +346,6 @@ form{
   .web{height: 570px;}
   .web-desk{float: right;}
 }
-
 @media (max-width: 600px) {
   article p{font-size: 1em !important;}
   article h1{font-size: 1em !important;}
