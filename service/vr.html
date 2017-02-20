@@ -208,82 +208,82 @@
               <p>Multimedia</p>
             </li>
           </ul>
-          <a href="#modal1" class="modal-trigger waves-effect waves-light btn red darken-1" id="cotizar-2">Cotizar servicio</a>
-          <!-- Modal formulario -->
-          <div id="modal1" class="modal">
-            <div class="modal-content">
-              <div class="row">
-                <div class="col s12 center-align">
-                  <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
-                  <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
-                </div>
+        </div>
+        <a href="#modal1" class="modal-trigger waves-effect waves-light btn red darken-1" id="cotizar-2">Cotizar servicio</a>
+        <!-- Modal formulario -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <div class="row">
+              <div class="col s12 center-align">
+                <h5 class="teal-text text-accent-4">Cotiza tu servicio ahora</h5>
+                <p class="grey-text text-darken-1">Somos los indicados para llevar a cabo tu proyecto</p>
               </div>
-              <div class="row">
-                <form action="service.php" method="post" class="col s12">
-                   <div class="row">
-                    <div class="input-field col s12 m6 left-align">
-                      <input name="first_name" id="first_name" type="text" class="validate">
-                      <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
-                    </div>
-                    <div class="input-field col s12 m6">
-                       <input name="enterprise" id="enterprise" type="text">
-                       <label for="enterprise">Marca o empresa</label>
-                    </div>
+            </div>
+            <div class="row">
+              <form action="service.php" method="post" class="col s12">
+                 <div class="row">
+                  <div class="input-field col s12 m6 left-align">
+                    <input name="first_name" id="first_name" type="text" class="validate">
+                    <label for="first_name" data-error="wrong" data-sucess="ok">Nombre y apellidos</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                     <input name="enterprise" id="enterprise" type="text">
+                     <label for="enterprise">Marca o empresa</label>
+                  </div>
+                 </div>
+                 <div class="row">
+                   <div class="input-field col s12 m6 left-align">
+                     <input name="email" id="email" type="email" class="validate">
+                     <label for="email" data-error="wrong" data-success="ok">Email</label>
                    </div>
-                   <div class="row">
-                     <div class="input-field col s12 m6 left-align">
-                       <input name="email" id="email" type="email" class="validate">
-                       <label for="email" data-error="wrong" data-success="ok">Email</label>
-                     </div>
-                     <div class="input-field col s12 m6">
-                        <select name="service">
-                          <option value="" disabled selected>---</option>
-                          <option value="vr-inmobiliaria">VR inmobiliaria</option>
-                          <option value="vr-publicidad">VR publicidad</option>
-                          <option value="vr-turismo">VR turismo</option>
-                        </select>
-                        <label>Selecciona el servicio que deseas</label>
-                      </div>
-                   </div>
-                   <div class="row">
-                    <div class="input-field col s12 m6">
-                      <input name="tel" id="tel" type="number">
-                      <label for="tel">Teléfono</label>
+                   <div class="input-field col s12 m6">
+                      <select name="service">
+                        <option value="" disabled selected>---</option>
+                        <option value="vr-inmobiliaria">VR inmobiliaria</option>
+                        <option value="vr-publicidad">VR publicidad</option>
+                        <option value="vr-turismo">VR turismo</option>
+                      </select>
+                      <label>Selecciona el servicio que deseas</label>
                     </div>
-                    <div class="input-field col s12 m6">
-                       <input name="cel" id="tel" type="number">
-                       <label for="cel">Celular</label>
+                 </div>
+                 <div class="row">
+                  <div class="input-field col s12 m6">
+                    <input name="tel" id="tel" type="number">
+                    <label for="tel">Teléfono</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                     <input name="cel" id="tel" type="number">
+                     <label for="cel">Celular</label>
+                  </div>
+                 </div>
+                 <div class="row">
+                   <div class="col s12">
+                    <p class="grey-text">Presupuesto:</p>
+                    <div class="input-field inline">
+                      <input name="budget" id="budget" type="text">
+                      <label for="budget">$(COP)</label>
                     </div>
-                   </div>
-                   <div class="row">
-                     <div class="col s12">
-                      <p class="grey-text">Presupuesto:</p>
-                      <div class="input-field inline">
-                        <input name="budget" id="budget" type="text">
-                        <label for="budget">$(COP)</label>
-                      </div>
-                      <div class="col s12 m6">
-                        <p>
-                          <input name="budget_check" type="checkbox" id="test5" />
-                          <label for="test5">Prefiero hablarlo personalmente</label>
-                        </p>
-                      </div>
+                    <div class="col s12 m6">
+                      <p>
+                        <input name="budget_check" type="checkbox" id="test6" />
+                        <label for="test6">Prefiero hablarlo personalmente</label>
+                      </p>
                     </div>
+                  </div>
+                 </div>
+                 <div class="row">
+                   <div class="input-field col s12">
+                    <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Especificaciones</label>
+                  </div>
+                 </div>
+                 <div class="row">
+                   <div class="col s12 center-align">
+                      <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
+                      <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
                    </div>
-                   <div class="row">
-                     <div class="input-field col s12">
-                      <textarea name="mesage" id="textarea1" class="materialize-textarea"></textarea>
-                      <label for="textarea1">Especificaciones</label>
-                    </div>
-                   </div>
-                   <div class="row">
-                     <div class="col s12 center-align">
-                        <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
-                        <p class="grey-text text-darken-1 center-align">Responderemos lo antes posible a tu solicitud.</p>
-                     </div>
-                   </div>
-                </form>
-              </div>
+                 </div>
+              </form>
             </div>
           </div>
         </div>
@@ -368,8 +368,8 @@
                       </div>
                       <div class="col s12 m6">
                         <p>
-                          <input name="budget_check" type="checkbox" id="test5" />
-                          <label for="test5">Prefiero hablarlo personalmente</label>
+                          <input name="budget_check" type="checkbox" id="test7" />
+                          <label for="test7">Prefiero hablarlo personalmente</label>
                         </p>
                       </div>
                     </div>

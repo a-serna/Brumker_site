@@ -170,6 +170,7 @@ form{
 
 #cotizar-2{
   opacity: 0;
+  float: right;
 }
 
 #img-interactive{
@@ -289,6 +290,7 @@ form{
   #img-man{top: -380px; left: 750px;}
   .web{height: 680px;}
   .model{height: 630px;}
+  #ar-publicidad{top: -216px;}
 }
 
 @media (max-width: 1280px) {
