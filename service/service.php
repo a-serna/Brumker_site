@@ -21,7 +21,7 @@
           <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <title>Mensaje éxitoso</title>
+            <title>Mensaje exitoso</title>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
             <link rel="stylesheet" href="../css/brumker.css">
@@ -97,7 +97,7 @@
            <head>
              <meta charset="utf-8">
              <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-             <title>Mensaje éxitoso</title>
+             <title>Mensaje fallido</title>
              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
              <link rel="stylesheet" href="../css/brumker.css">
@@ -117,8 +117,8 @@
               <main class="container">
                <div class="row">
                  <div class="col s12 center-align">
-                 <h6 class="grey-text text-darken-3">:( lo sentimos hubo un fallo al enviar el mensaje</h6>
-                 <p class="grey-text">Por favor intenta más tarde</p>
+                 <h6 class="grey-text text-darken-3">:( algo salió mal lo sentimos</h6>
+                 <p class="grey-text">Por favor regresa e intenta de nuevo</p>
                  </div>
                </div>
               </main>
