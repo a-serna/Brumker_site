@@ -152,6 +152,7 @@ form{
   display: flex !important;
   display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
+  float: right !important;
 }
 
 .item-list-2 li{
@@ -265,6 +266,7 @@ form{
   display: flex !important;
   display: -webkit-flex !important;
   font-family: 'Oswald', sans-serif !important;
+  float: right !important;
 }
 
 .item-list-4 li{
@@ -353,7 +355,7 @@ form{
   #img-producto{left: 0px;}
   .model{height: 460px;}
 }
-  /*
+
 @media (max-width: 768px) {
   .imgvr{height: 364px;}
   .imgvr img{
@@ -374,7 +376,6 @@ form{
   #img-interactive{left: -80px; width: 320px; top: -190px;}
   #img-app{top: -30px; left: -30px; width: 350px;}
   #vr-turismo{top: -50px;left: 0px;width: 320px;}
-  }
   #ar-educacion{top: -30px; left: 50px; width: 100%;}
   .item-list-2 li i .icon-size{width: 40px;}
   .item-list-2 li{margin-left: 3px; margin-right: 3px;}
@@ -390,8 +391,12 @@ form{
     top: 170px;
     left: -10px;
   }
-  #vr-publicidad{top: -100px; left: -100px; width: 170%;}
+  #vr-publicidad{top: -115px; left: -100px; width: 170%;}
+  .ar{height: 520px;}
+  .web{height: 570px;}
+  .web-desk{float: right;}
 }
+
 @media (max-width: 600px) {
   article p{font-size: 1em !important;}
   article h1{font-size: 1em !important;}
@@ -411,19 +416,19 @@ form{
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 430px;
+    height: 395px;
   }
   .sector-03{
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 430px;
+    height: 395px;
   }
   .sector-04{
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 430px;
+    height: 370px;
   }
   #img-web-desk{width: 800px; float: right;}
   .web{height: 475px;}
@@ -435,72 +440,54 @@ form{
     top: 0px;
   }
   .ar-img{width: 100%; position: static;}
+  .model{height: 570px;}
+  .ar{height: 570px;}
 }
 @media (max-width: 480px){
-  .sector-01{
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 475px;
-  }
-  .sector-02{
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 475px;
-  }
-  .sector-03{
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 475px;
-  }
-  .sector-04{
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 475px;
-  }
   #img-web-desk{width: 700px;}
   .web{height: 460px;}
   .item-list li{margin-left: 10px;margin-right: 10px;}
   .model{height: 560px;}
+  .sector-03{height: 450px;}
+  .sector-02{height: 430px;}
+  .sector-01{height: 450px;}
 }
 @media (max-width: 414px){
+  .imgvr img{left: -20px; top: 8px; width: 350px;}
   .sector-01{
-    height: 530px;
+    height: 470px;
     padding-left: 15px;
     padding-right: 15px;
   }
   .sector-02{
-    height: 530px;
+    height: 465px;
     padding-left: 15px;
     padding-right: 15px;
   }
   .sector-03{
-    height: 530px;
+    height: 435px;
     padding-left: 15px;
     padding-right: 15px;
   }
   .sector-04{
-    height: 530px;
+    height: 400px;
     padding-left: 15px;
     padding-right: 15px;
   }
-  #img-web-desk{width: 600px; padding-top: 45%;}
-  .web{height: 615px;}
+  #img-web-desk{width: 600px; padding-top: 10%;}
+  .web{height: 495px;}
+  .item-list-3 li{margin-left: 5px; margin-right: 5px;}
 }
 @media (max-width: 380px) {
-  .sector-01{height: 520px;}
-  .sector-02{height: 520px;}
-  .sector-03{height: 520px;}
-  .sector-04{height: 520px;}
-  .imgvr{height: 220px;}
-  .imgvr img{width: 280px;}
-  .item-list li{margin-left: 5px; margin-right: 5px;}
-  .item-list-2 li{margin-left: 5px; margin-right: 5px; font-size: 0.9em;}
+  .imgvr{height: 229px;}
+  .imgvr img{width: 290px; top: 0px; left: 0px;}
+  .item-list li{margin-left: 3px; margin-right: 3px;}
+  .item-list-2 li{margin-left: 3px; margin-right: 3px; font-size: 0.9em;}
   .item-list-3 li{margin-left: 5px; margin-right: 5px;}
-  #img-web-desk{padding-top: 20%;}
-  .web{height: 505px;}
   .icon-size{width: 30px; height: 30px;}
-}*/
+  .sector-03{height: 445px;}
+  .sector-02{height: 450px;}
+  .sector-01{height: 470px;}
+  #img-web-desk{padding-top: 0%;}
+  .web{height: 438px;}
+}
