@@ -284,9 +284,10 @@ form{
 }
 
 @media (min-width: 1367px) {
-  #img-man{top: -380px; left: 550px;}
+  #img-man{top: -380px; left: 750px;}
   .web{height: 667px;}
 }
+/*
 @media (max-width: 1280px) {
   .imgvr{height: 395px;}
   .imgvr img{width: 500px;}
@@ -501,4 +502,4 @@ form{
   #img-web-desk{padding-top: 20%;}
   .web{height: 505px;}
   .icon-size{width: 30px; height: 30px;}
-}
+}*/
