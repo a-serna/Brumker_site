@@ -147,13 +147,13 @@ form{
   left: 50px;
   opacity: 0;
 }
-#ar-publicidad{
+#ar-publ{
   position: relative;
   top: -255px;
   left: 50px;
   opacity: 0;
 }
-#vr-publicidad{
+#vr-publ{
   position: relative;
   top: -260px;
   left: 0px;
@@ -241,15 +241,15 @@ form{
   #img-man{top: -380px; left: 750px;}
   .web{height: 680px;}
   .model{height: 630px;}
-  #ar-publicidad{top: -216px;}
+  #ar-publ{top: -216px;}
 }
 @media (max-width: 1280px) {
   .imgvr{height: 395px;}
   .imgvr img{width: 500px;}
   #img-man{top: -380px; left: 480px;}
-  #vr-publicidad{left: -100px;}
+  #vr-publ{left: -100px;}
   .ar-img{width: 140%;}
-  #ar-publicidad{top: -260px; left: 0px;}
+  #ar-publ{top: -260px; left: 0px;}
   .web{height: 600px;}
 }
 @media (max-width: 1024px) {
@@ -257,7 +257,7 @@ form{
   .imgvr img{width: 540px;}
   #img-man{top: -300px; left: 380px;}
   #img-house{left: 0px;}
-  #vr-publicidad{top: -285px; left: -150px;}
+  #vr-publ{top: -285px; left: -150px;}
   .sector-01{height: 470px;}
   .sector-04{height: 470px;}
   #img-producto{left: 100px;}
@@ -280,12 +280,12 @@ form{
     left: 0px;
   }
   #vr-turismo{top: -40px; left: -35px;}
-  #vr-publicidad{top: -200px;width: 160%;}
+  #vr-publ{top: -200px;width: 160%;}
   .ar-img{
     width: 100%;
   }
   .ar{height: 420px;}
-  #ar-publicidad{top: -280px; left: -90px;}
+  #ar-publ{top: -280px; left: -90px;}
   #ar-educacion{top: -40px; left: 0px;}
   #ar-arch{width: 100%; top: 0px;}
   .web{height: 525px;}
@@ -334,14 +334,14 @@ form{
   #img-house{left: 0px; top: 50px;}
   #img-producto{left: -35px;}
   #ar-arch{width: 110%;}
-  #ar-publicidad{top: -260px; left: -160px;}
+  #ar-publ{top: -260px; left: -160px;}
   .ar-img{
     width: 115%;
     position: relative;
     top: 170px;
     left: -10px;
   }
-  #vr-publicidad{top: -115px; left: -100px; width: 170%;}
+  #vr-publ{top: -115px; left: -100px; width: 170%;}
   .ar{height: 520px;}
   .web{height: 570px;}
   .web-desk{float: right;}

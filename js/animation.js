@@ -17,8 +17,8 @@ $(document).ready(function(){
       $(".item-list-4").addClass('animated fadeIn').css({"opacity":"1"});
       $("#img-interactive").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
       $("#img-producto").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
-      $("#vr-publicidad").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
-      $("#ar-publicidad").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
+      $("#vr-publ").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
+      $("#ar-publ").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
       $("#cotizar-2").addClass('animated hinge fadeIn').css({"opacity":"1"});
     };
     if (scroll > 900) {
