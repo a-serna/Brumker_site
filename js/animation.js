@@ -1,12 +1,6 @@
 $(document).ready(function(){
-  // $(window).scroll(function(){
-  // var y = $(this).scrollTop();
-  // console.log(y);
-  // });
-  // var scroll;
   $(window).scroll(function() {
     scroll = $(window).scrollTop();
-
     if (scroll > 200) {
       $(".text").addClass('animated fadeInLeftBig').css({"opacity":"1"});
       $(".item-list").addClass('animated fadeIn').css({"opacity":"1"});
@@ -35,6 +29,5 @@ $(document).ready(function(){
       $("#vr-turismo").addClass('animated hinge fadeInRightBig').css({"opacity":"1"});
       $("#ar-educacion").addClass('animated hinge fadeInRightBig').css({"opacity":"1"});
     }
-
   });
 })
