@@ -298,20 +298,21 @@ form{
   #ar-publicidad{top: -260px; left: 0px;}
   .web{height: 600px;}
 }
-  /*
-
 
 @media (max-width: 1024px) {
   .imgvr{height: 425px;}
   .imgvr img{width: 540px;}
-  #img-man{top: -380px; left: 380px;}
-  #img-web{width: 100%;}
+  #img-man{top: -300px; left: 380px;}
   #img-house{left: 0px;}
-  #img-producto{left: 100px;}
-  #img-3d{width: 120%; position: relative; top: 0px; left: 0px;}
-  #ar-publicidad{top: -285px;}
   #vr-publicidad{top: -285px; left: -150px;}
+  .sector-01{height: 470px;}
+  .sector-04{height: 470px;}
+  #img-producto{left: 100px;}
 }
+  /*
+
+
+
 @media (max-width: 992px) {
   .imgvr{height: 335px;}
   .imgvr img{width: 425px; margin-left: 0px; margin-right: auto;}
