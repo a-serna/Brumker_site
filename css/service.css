@@ -285,18 +285,22 @@ form{
 
 @media (min-width: 1367px) {
   #img-man{top: -380px; left: 750px;}
-  .web{height: 667px;}
+  .web{height: 680px;}
+  .model{height: 630px;}
 }
-/*
+
 @media (max-width: 1280px) {
   .imgvr{height: 395px;}
   .imgvr img{width: 500px;}
   #img-man{top: -380px; left: 480px;}
-  .web{height: 600px;}
+  #vr-publicidad{left: -100px;}
   .ar-img{width: 140%;}
   #ar-publicidad{top: -260px; left: 0px;}
-  #vr-publicidad{left: -100px;}
+  .web{height: 600px;}
 }
+  /*
+
+
 @media (max-width: 1024px) {
   .imgvr{height: 425px;}
   .imgvr img{width: 540px;}
