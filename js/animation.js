@@ -23,6 +23,7 @@ $(document).ready(function(){
       $(".item-list-4").addClass('animated fadeIn').css({"opacity":"1"});
       $("#img-interactive").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
       $("#img-producto").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
+      $("#vr-publicidad").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
       $("#ar-publicidad").addClass('animated hinge bounceInLeft').css({"opacity":"1"});
       $("#cotizar-2").addClass('animated hinge fadeIn').css({"opacity":"1"});
     };
@@ -31,6 +32,7 @@ $(document).ready(function(){
       $(".item-list-3").addClass('animated hinge fadeIn').css({"opacity":"1"});
       $("#cotizar-3").addClass('animated hinge fadeIn').css({"opacity":"1"});
       $("#img-app").addClass('animated hinge fadeInRightBig').css({"opacity":"1"});
+      $("#vr-turismo").addClass('animated hinge fadeInRightBig').css({"opacity":"1"});
       $("#ar-educacion").addClass('animated hinge fadeInRightBig').css({"opacity":"1"});
     }
 
