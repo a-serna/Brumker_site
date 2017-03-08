@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/*css file*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
+.proyectos-selectores{
+  cursor: pointer;
+  font-size: 1em;
+  color: #656565;
+  margin-top: 25px;
+}
+.proyectos-selectores:hover{color: #0EAE96;}
+.block-items{
+  display: block;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+.proyectos-items{
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  height: 180px;
+  padding: 0px !important;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+.block-items a{
+  color: white !important;
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 0px;
+  vertical-align: text-bottom !important;
+}
+
+.block-items a span{
+  display: block;
+  background: rgba(35, 58, 72, 0.5) !important;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  overflow: hidden;
+  opacity: 0;
+  text-align: center;
+}
+.block-items a:hover span{
+  padding-top: 15px;
+  height: 180px;
+  width: 100%;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.more{
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  color: #0EAE96;
+  text-align: center;
+  border-radius: 50%;
+  margin: 10px auto 10px auto;
+  line-height: 30px !important;
+}
+.tile {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+.scale-anm {
+  transform: scale(1);
+}
+.tile img {
+  margin-bottom: 0px;
+}
+.img-orbe1{
+  background: url(../assets/imagenes/logoorbe.png);
+  background-position: center;
+  height: 500px;
+  
+}
+.img-orbe2{
+  background: url(../assets/imagenes/orbe1.jpg) center no-repeat;
+  background-size: cover;
+}
+.img-orbe3{
+  background: url(../assets/imagenes/orbe2.jpg) center no-repeat;
+  background-size: contain;
+  background-color: rgb(45,48,67);
+  background-position: right;
+}
+.wawa1{
+  background: url(../assets/imagenes/wawa1.jpg) center no-repeat;
+    background-position: center;
+  height: 700px;
+}
+.wawa2{
+  background: url(../assets/imagenes/pcwawa.jpg) center no-repeat;
+  background-size: cover;
+}
+.wawa3{
+  background: url(../assets/imagenes/wawa3.jpg) center no-repeat;
+  background-size: cover;
+  height: 500px; 
+}
+.projecttext{
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+.projecttextbottom{
+  margin-top: 450px;
+  margin-bottom: 50px;
+}
+.projecttexttop{
+  margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 768px){
+  .projecttext{
+    margin-top: 20%;
+ }
+  .projecttextbottom{
+    margin-top: 300px;
+  }
+}
+@media only screen and (max-width: 480px){
+  .img-orbe3{
+    background: url(../assets/imagenes/orbe22.jpg);
+    height: 600px;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #2d3043;
+  }
+  .wawa2{
+    background: url(../assets/imagenes/pcwawa2.jpg);
+    height: 500px;
+    background-position: center bottom;
+    background-size: contain;
+    background-color: #e4e4e8;
+    background-repeat: no-repeat;
+  }
+  .wawa3{
+    background-color: #cceddb;
+    background-image: none;
+    height: 250px;
+  }
+  .projecttext{
+    margin-top: 10%;
+ }
+  .projecttextbottom{
+    margin-top: 360px;
+  }
+}
+@media only screen and (max-width: 320px){
+  
+  }
+}
