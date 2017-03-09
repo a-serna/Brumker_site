@@ -63,6 +63,12 @@ footer{
   font-size: 3.5em !important;
   color: #07ae96 !important;
 }
+.menu_burguer02{
+  font-size: 3.5em !important;
+  color: white !important;
+  text-shadow: 2px 2px  silver;
+}
+
 .menu_oculto{
   width: 128px !important;
   left: auto;
