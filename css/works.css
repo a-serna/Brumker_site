@@ -6,6 +6,7 @@ body.orbe{
 }
 .orbelogo{
   height: 585px;
+  margin-top: 50px;
 }
 .row.img-orbe2{
   background: url(../assets/imagenes/orbe1.jpg) center no-repeat;
