@@ -1,44 +1,11 @@
 @charset "UTF-8";
 /*css file*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
-.block-items{
-  display: block;
-  margin-bottom: 0px;
-  box-sizing: border-box;
-}
-.block-items a{
-  color: white !important;
-  display: block;
-  position: relative;
-  width: auto;
-  height: auto;
-  padding: 0px;
-  vertical-align: text-bottom !important;
-}
-.block-items a span{
-  display: block;
-  background: rgba(35, 58, 72, 0.5) !important;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 0px;
-  overflow: hidden;
-  opacity: 0;
-  text-align: center;
-}
-.block-items a:hover span{
-  padding-top: 15px;
-  height: 180px;
-  width: 100%;
-  opacity: 1;
-  transition: all 0.3s ease-in-out;
-}
 body.orbe{
   background: url(../assets/imagenes/orbefondo.jpg) no-repeat !important;
 }
-.img-orbe1{
-  background: url(../assets/imagenes/logoorbe.png) center no-repeat;
-  height: 600px;
+.orbelogo{
+  height: 585px;
 }
 .row.img-orbe2{
   background: url(../assets/imagenes/orbe1.jpg) center no-repeat;
@@ -49,6 +16,7 @@ body.orbe{
 .row.img-orbe3{
   background: url(../assets/imagenes/orbe2.jpg) center no-repeat;
   background-position: right;
+  background-size: cover;
   height: 500px;
   margin-bottom: 0px;
 }
@@ -69,8 +37,11 @@ body.orbe{
 .projecttext{
   font-family: 'Oswald', sans-serif !important;
   font-size: 1.2em;
-  margin-top: 200px;
-  margin-bottom: 0px;
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+.projecttext li{
+  margin-bottom: 5px;
 }
 .projecttextbottom{
   margin-top: 450px;
@@ -81,8 +52,13 @@ body.orbe{
 .projecttexttop{
   margin-top: 100px;
 }
+.arrow_project{
+  margin-top: 80px;
+}
 
+@media only screen and (max-width: 1280px){
 
+}
 @media only screen and (max-width: 768px){
   .projecttext{
     margin-top: 20%;
