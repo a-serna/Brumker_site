@@ -18,17 +18,12 @@ body{
   font-size: 18px;
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 400;
-  
-  
 }
 .fondoorbe{
   background: url(../assets/imagenes/orbefondo.jpg);
   background-repeat: no-repeat;
 }
-.fondowawa{
-  background: url(../assets/imagenes/wawa1.jpg);
-  background-repeat: no-repeat;
-}
+
 header{
   margin-top: 25px !important;
   background-color: none !important;
@@ -49,26 +44,7 @@ footer{
   padding-bottom: 0px;
   height: auto;
 }
-#languages ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 300px;
-}
-#list-language {
-  float: right;
-  position: relative;
-  top: -50px;
-  margin-right: 6px;
-  color: #656565;
-}
-#list-language a{
-  display: block;
-  color: #656565;
-}
-#list-language a:hover{
-  color: #07ae96;
-}
+
 .menu_burguer{
   font-size: 3.5em !important;
   color: white !important;
@@ -265,9 +241,7 @@ p{
   }
 }
 @media only screen and (max-width: 992px) {
-  body{
-    
-  }
+  
 }
 @media only screen and (max-width: 768px){
   .new{
@@ -300,10 +274,5 @@ p{
   }
   .social{
     bottom: -50px;
-  }
-}
-@media only screen and (max-width: 414px;) {
-  body{
-    
   }
 }

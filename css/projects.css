@@ -1,26 +1,12 @@
 @charset "UTF-8";
 /*css file*/
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Oswald');
-.proyectos-selectores{
-  cursor: pointer;
-  font-size: 1em;
-  color: #656565;
-  margin-top: 25px;
-}
-.proyectos-selectores:hover{color: #0EAE96;}
+
+
 .block-items{
   display: block;
   margin-bottom: 0px;
   box-sizing: border-box;
-}
-.proyectos-items{
-  box-sizing: border-box;
-  display: block;
-  float: left;
-  height: 180px;
-  padding: 0px !important;
-  overflow: hidden;
-  transition: all 0.4s ease-in-out;
 }
 .block-items a{
   color: white !important;
@@ -50,28 +36,7 @@
   opacity: 1;
   transition: all 0.3s ease-in-out;
 }
-.more{
-  height: 30px;
-  width: 30px;
-  background-color: #ffffff;
-  color: #0EAE96;
-  text-align: center;
-  border-radius: 50%;
-  margin: 10px auto 10px auto;
-  line-height: 30px !important;
-}
-.tile {
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-}
-.scale-anm {
-  transform: scale(1);
-}
-.tile img {
-  margin-bottom: 0px;
-}
+
 .img-orbe1{
   background: url(../assets/imagenes/logoorbe.png);
   background-position: center;
@@ -150,9 +115,5 @@
  }
   .projecttextbottom{
     margin-top: 360px;
-  }
-}
-@media only screen and (max-width: 320px){
-  
   }
 }
