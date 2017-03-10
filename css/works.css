@@ -8,74 +8,121 @@ body.orbe{
   height: 585px;
   margin-top: 50px;
 }
-.row.img-orbe2{
+.img-orbe2{
   background: url(../assets/imagenes/orbe1.jpg) center no-repeat;
   background-size: cover;
   height: 600px;
   margin-bottom: 0px;
 }
+.img-orbe2 p{
+  margin-top: 450px;
+  font-size: 1.2em;
+  font-family: 'Oswald', sans-serif !important;
+}
 .row.img-orbe3{
-  background: url(../assets/imagenes/orbe2.jpg) center no-repeat;
-  background-position: right;
+  background: url(../assets/imagenes/orbe2.jpg) right no-repeat;
   background-size: cover;
   height: 500px;
   margin-bottom: 0px;
 }
-.wawa1{
-  background: url(../assets/imagenes/wawa1.jpg) center no-repeat;
-    background-position: center;
-  height: 700px;
-}
-.wawa2{
-  background: url(../assets/imagenes/pcwawa.jpg) center no-repeat;
-  background-size: cover;
-}
-.wawa3{
-  background: url(../assets/imagenes/wawa3.jpg) center no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-.projecttext{
+.img-orbe3 ul{
   font-family: 'Oswald', sans-serif !important;
   font-size: 1.2em;
   margin-top: 120px;
   margin-bottom: 10px;
+  margin-left: 210px;
 }
-.projecttext li{
+.img-orbe3 ul li{
   margin-bottom: 5px;
 }
-.projecttextbottom{
-  margin-top: 450px;
-  font-size: 1.2em;
-  font-family: 'Oswald', sans-serif !important;
-  width: 90%;
+body.wawa1{
+  background: url(../assets/imagenes/wawa1.jpg) no-repeat !important;
 }
-.projecttexttop{
+.row.img-wawa2{
+  background: url(../assets/imagenes/pcwawa.jpg) right no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+  height: 600px;
+}
+.row.img-wawa3{
+  background: url(../assets/imagenes/wawa3.jpg) center no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+}
+
+.texttop{
   margin-top: 100px;
+  font-family: 'Oswald', sans-serif !important;
 }
-.arrow_project{
-  margin-top: 80px;
+.textleft{
+  margin-top: 510px;
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 1.2em;
+}
+.row.arrow_project{
+  background-color: #069480;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 3px;
 }
 
+@media only screen and (min-width: 1367px){
+}
 @media only screen and (max-width: 1280px){
-
+  .img-orbe2 p{
+    width: 120%;
+  }
+  .img-orbe3 ul{
+    margin-left: 80px;
+    margin-top: 40px;
+    padding: 5px;
+  }
+  .responsive-img{
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 992px){
+  .img-orbe2 p{
+    margin-top: 430px;
+    width: 120%;
+  }
+  .row.img-orbe3{
+    background: url(../assets/imagenes/orbe22.jpg) center no-repeat;
+    height: 800px;
+  }
 }
 @media only screen and (max-width: 768px){
-  .projecttext{
+  .img-orbe2 p{
+    margin-top: 430px;
+    width: 110%;
+  }
+  .img-orbe3 ul{
+    margin-left: 30px;
+  }
+  /*.projecttext{
     margin-top: 20%;
  }
   .projecttextbottom{
     margin-top: 300px;
+  }*/
+}
+@media only screen and (max-width: 600px){
+  .img-orbe2 p{
+    margin-top: 500px;
+    width: 100%;
+  }
+  .row.img-orbe3{
+    background: url(../assets/imagenes/orbeS.jpg) center no-repeat;
+    height: 700px;
   }
 }
 @media only screen and (max-width: 480px){
-  .img-orbe3{
-    background: url(../assets/imagenes/orbe22.jpg);
-    height: 600px;
-    background-size: contain;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-color: #2d3043;
+  .img-orbe2 p{
+    margin-top: 420px;
+    margin-right: 0px;
   }
   .wawa2{
     background: url(../assets/imagenes/pcwawa2.jpg);
