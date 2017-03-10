@@ -73,6 +73,7 @@ body.wawa1{
 }
 @media only screen and (max-width: 1280px){
   .img-orbe2 p{
+    margin-top: 420px;
     width: 120%;
   }
   .img-orbe3 ul{
@@ -86,8 +87,7 @@ body.wawa1{
 }
 @media only screen and (max-width: 992px){
   .img-orbe2 p{
-    margin-top: 430px;
-    width: 120%;
+    width: 110%;
   }
   .row.img-orbe3{
     background: url(../assets/imagenes/orbe22.jpg) center no-repeat;
@@ -96,11 +96,11 @@ body.wawa1{
 }
 @media only screen and (max-width: 768px){
   .img-orbe2 p{
-    margin-top: 430px;
+    margin-top: 395px;
     width: 110%;
   }
   .img-orbe3 ul{
-    margin-left: 30px;
+    margin-left: 45px;
   }
   /*.projecttext{
     margin-top: 20%;
@@ -111,20 +111,25 @@ body.wawa1{
 }
 @media only screen and (max-width: 600px){
   .img-orbe2 p{
-    margin-top: 500px;
+    margin-top: 480px;
     width: 100%;
   }
   .row.img-orbe3{
     background: url(../assets/imagenes/orbeS.jpg) center no-repeat;
     height: 700px;
   }
+  .img-orbe3 ul{
+    margin-left: 30px;
+  }
 }
 @media only screen and (max-width: 480px){
   .img-orbe2 p{
-    margin-top: 420px;
-    margin-right: 0px;
+    margin-top: 450px;
   }
-  .wawa2{
+  .img-orbe3 ul{
+    margin-left: 10px;
+  }
+  /*.wawa2{
     background: url(../assets/imagenes/pcwawa2.jpg);
     height: 500px;
     background-position: center bottom;
@@ -142,5 +147,37 @@ body.wawa1{
  }
   .projecttextbottom{
     margin-top: 360px;
+  }*/
+}
+@media only screen and (max-width: 414px){
+  .orbelogo{
+    height: 570px;
+  }
+  .responsive-img{
+    width: 70% !important;
+  }
+  .img-orbe2 p{
+    margin-top: 470px;
+    margin-bottom: 0px;
+    font-size: 1em;
+  }
+  .img-orbe3 ul{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 320px){
+  .orbelogo{
+    height: 403px;
+  }
+  .img-orbe2{
+    height: 568px;
+  }
+  .img-orbe2 p{
+    margin-top: 450px;
+  }
+  .row.img-orbe3{
+    height: 568px;
   }
 }
