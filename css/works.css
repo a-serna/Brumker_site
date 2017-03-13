@@ -35,29 +35,37 @@ body.orbe{
 .img-orbe3 ul li{
   margin-bottom: 5px;
 }
-body.wawa1{
-  background: url(../assets/imagenes/wawa1.jpg) no-repeat !important;
+body.wawa{
+  background: url(../assets/imagenes/wawa-xl.jpg) top no-repeat !important;
+  background-size: cover;
 }
-.row.img-wawa2{
+.img-wawa2{
   background: url(../assets/imagenes/pcwawa.jpg) right no-repeat;
   background-size: cover;
   margin-bottom: 0px;
   height: 600px;
 }
-.row.img-wawa3{
+.img-wawa2 p{
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 1.2em;
+  margin-top: 80%;
+  padding-right: 21px;
+}
+.img-wawa3{
   background: url(../assets/imagenes/wawa3.jpg) center no-repeat;
   background-size: cover;
   height: 700px;
   margin-bottom: 0px;
   font-size: 1.5em;
 }
-
-.texttop{
+.img-wawa3 p{
   margin-top: 100px;
   font-family: 'Oswald', sans-serif !important;
+  font-size: 1em;
+  line-height: normal;
 }
-.textleft{
-  margin-top: 510px;
+.wawa_text{
+  height: 585px;
   font-family: 'Oswald', sans-serif !important;
   font-size: 1.2em;
 }
@@ -69,8 +77,6 @@ body.wawa1{
   padding-bottom: 3px;
 }
 
-@media only screen and (min-width: 1367px){
-}
 @media only screen and (max-width: 1280px){
   .img-orbe2 p{
     margin-top: 420px;
@@ -84,6 +90,12 @@ body.wawa1{
   .responsive-img{
     width: auto !important;
   }
+  .img-wawa2 p{
+    padding: 0px 0px;
+  }
+  .img-wawa2{
+    background: url(../assets/imagenes/pcwawa-L.jpg) center no-repeat;
+  }
 }
 @media only screen and (max-width: 992px){
   .img-orbe2 p{
@@ -92,6 +104,16 @@ body.wawa1{
   .row.img-orbe3{
     background: url(../assets/imagenes/orbe22.jpg) center no-repeat;
     height: 800px;
+  }
+  body.orbe{
+    background: url(../assets/imagenes/orbefondo_m.jpg) no-repeat !important;
+  }
+  body.wawa{
+    background: url(../assets/imagenes/wawa-md.jpg) top no-repeat !important;
+    background-size: cover;
+  }
+  .img-wawa2 p {
+    padding-right: 25px;
   }
 }
 @media only screen and (max-width: 768px){
@@ -102,12 +124,7 @@ body.wawa1{
   .img-orbe3 ul{
     margin-left: 45px;
   }
-  /*.projecttext{
-    margin-top: 20%;
- }
-  .projecttextbottom{
-    margin-top: 300px;
-  }*/
+
 }
 @media only screen and (max-width: 600px){
   .img-orbe2 p{
@@ -121,33 +138,40 @@ body.wawa1{
   .img-orbe3 ul{
     margin-left: 30px;
   }
+  body.orbe{
+    background: url(../assets/imagenes/orbefondo_sm.jpg) no-repeat !important;
+  }
+  body.wawa{
+    background: url(../assets/imagenes/wawa-sm.jpg) top no-repeat !important;
+    background-size: cover;
+  }
+  .img-wawa3{
+    background: url(../assets/imagenes/wawa3-sm.jpg) center no-repeat;
+  }
+  .img-wawa2{
+    background: url(../assets/imagenes/pcwawa-s.jpg) center no-repeat;
+  }
+  .img-wawa2 p {
+    padding-right: 0px;
+    margin-top: 5%;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 480px){
+  body.wawa{
+    background: url(../assets/imagenes/wawa-xs.jpg) top no-repeat !important;
+    background-size: cover;
+  }
   .img-orbe2 p{
     margin-top: 450px;
   }
   .img-orbe3 ul{
     margin-left: 10px;
   }
-  /*.wawa2{
-    background: url(../assets/imagenes/pcwawa2.jpg);
-    height: 500px;
-    background-position: center bottom;
-    background-size: contain;
-    background-color: #e4e4e8;
-    background-repeat: no-repeat;
+  .img-wawa2{
+    background: url(../assets/imagenes/pcwawa-xs.jpg) center no-repeat;
+    height: 580px;
   }
-  .wawa3{
-    background-color: #cceddb;
-    background-image: none;
-    height: 250px;
-  }
-  .projecttext{
-    margin-top: 10%;
- }
-  .projecttextbottom{
-    margin-top: 360px;
-  }*/
 }
 @media only screen and (max-width: 414px){
   .orbelogo{
@@ -166,6 +190,12 @@ body.wawa1{
     margin-left: 10px;
     font-size: 0.9em;
   }
+  .wawa_text {
+    height: 620px;
+  }
+  .img-wawa3{
+    height: 735px;
+  }
 }
 @media only screen and (max-width: 320px){
   .orbelogo{
@@ -180,4 +210,7 @@ body.wawa1{
   .row.img-orbe3{
     height: 568px;
   }
+  .wawa_text {
+    height: 620px;
+}
 }
