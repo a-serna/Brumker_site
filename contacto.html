@@ -57,89 +57,70 @@
         <li id="list-language"><a href="./en/contacto.html"><h1>En</h1></a></li>
       </ul>
     </header>
-    <div class="contacto row">
-      <div class="side-left col s12 m12 l7">
-        <div class="mensaje">
-        </div>
-        <div class="formulario_contacto">
-          <form action="contacto.php" method="post">
-            <div class="input-field active" >
+
+    <main class="contacto row">
+       <div class="col s12 center-align">
+          <img class="responsive-img" src="./assets/imagenes/brumker_logo.png" alt="">
+      </div>
+
+      <div class="container">
+        <form action="contacto.php" method="post">
+          <div class="col s12 m4">
+            <div class="input-field active">
               <input name="first_name" id="first_name" type="text" class="validate">
-              <label for="first_name" data-error="incompleto" data-sucess="ok">Nombre</label>
+              <label for="first_name" data-error="incompleto" data-sucess="ok">Nombre </label>
             </div>
+          </div>
+          <div class="col s12 m4">
             <div class="input-field active">
               <input name="email" id="email" type="email" class="validate">
               <label for="email" data-error="incompleto" data-sucess="ok">Email</label>
             </div>
+          </div>
+          <div class="col s12 m4">
             <div class="input-field active">
               <input name="tel" id="tel" type="tel">
-              <label for="tel">Teléfono ó celular</label>
+              <label for="tel">Télefono</label>
             </div>
+          </div>
+          <div class="col s12">
             <div class="input-field active">
               <textarea name="textarea1" id="textarea1" class="materialize-textarea" length="400"></textarea>
               <label for="textarea1">Mensaje</label>
             </div>
+          </div>
+          <div class="col s12">
             <div class="center-align envio_contacto">
               <input type="submit" name="submit" value="Enviar" class="waves-effect waves-light btn">
               <h3>Al enviar estoy aceptando los <a href="terminos-y-condiciones.html">términos y condiciones</a></h3>
             </div>
-          </form>
-        </div>
-      </div>
-      <div class="side-center col l2 hide-on-med-and-down">
-        <div class="logo_contacto valign-wrapper container">
-          <img src="./assets/imagenes/isotipo_brumker.png" alt="isotipo-brumker">
-        </div>
-        <div class="info_contacto valign-wrapper">
-          <div class="valign container">
-          <h3><i class="material-icons">place</i>Cra 80 #47-52 (Medellín-Colombia)</h3></li>
-          <h3><i class="material-icons">email</i> info@brumker.com</h3></li>
-          <h3><i class="material-icons">smartphone</i> +57 319 2701288</h3></li>
           </div>
+        </form>
+      </div>
+
+      <div class="row container">
+        <div class="col s12 center-align">
+          <ul>
+            <li><h3>Dirección: Cra 80 #47-52 (Medellín-Colombia)</h3></li>
+            <li><h3>Email: info@brumker.com</h3></li>
+            <li><h3>Télefono: +57 319 2701288</h3></li>
+          </ul>
         </div>
-        <div class="redes_contacto valign-wrapper">
-          <div class="container">
-            <a class="hvr-push" id="fb_foot" target="_blank" href="https://www.facebook.com/brumkerStudios/"></a>
-            <a class="hvr-push" id="insta_foot" target="_blank" href="https://www.instagram.com/brumker.studios/"></a>
-            <a class="hvr-push" id="you_foot" target="_blank" href="https://www.youtube.com/channel/UCVwie1L37KcclACyCh6mKEw"></a>
+        <div class="col s12 center-align">
+          <div class="redes center-align">
+            <a class="hvr-push" id="fb" target="_blank" href="https://www.facebook.com/brumkerStudios/"></a></li>
+            <a class="hvr-push" id="insta" target="_blank" href="https://www.instagram.com/brumker.studios/"></a></li>
+            <a class="hvr-push" id="you" target="_blank" href="https://www.youtube.com/channel/UCVwie1L37KcclACyCh6mKEw"></a></li>
           </div>
         </div>
       </div>
-      <div class="side_map col l3 hide-on-med-and-down">
-      </div>
-    </div>
-    <main></main>
-    <footer class="hide-on-large-only">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 m8 s12">
-            <img class="responsive-img" id="logo_foot" src="./assets/imagenes/brumker_logo_blanco.png" alt="Brumker_logo">
-            <h1 class="center-align white-text">Design for future.</h1>
-          </div>
-          <div class="col l4 m6 s12">
-            <h2 class="white-text">Contáctanos</h2>
-            <ul>
-              <li><i class="material-icons">email</i> info@brumker.com</li>
-              <li><i class="material-icons">smartphone</i> +57 319 2701288</li>
-              <li><i class="material-icons">place</i> Cra 80 #47-52 (Medellín-Colombia)</li>
-            </ul>
-          </div>
-          <div class="col l2 m6 s12">
-            <h2 class="white-text">Siguenos en:</h2>
-            <ul>
-              <li><a class="hvr-push" id="fb_foot" target="_blank" href="https://www.facebook.com/brumkerStudios/"></a></li>
-              <li><a class="hvr-push" id="insta_foot" target="_blank" href="https://www.instagram.com/brumker.studios/"></a></li>
-              <li><a class="hvr-push" id="you_foot" target="_blank" href="https://www.youtube.com/channel/UCVwie1L37KcclACyCh6mKEw"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    </main>
+
     <div class="footer-copyright">
       <div class="container">
         <div class="row">
           <div class="col l6 m8 s12">
-            <h1><i class="material-icons md-18">copyright</i> 2017 Brumker todos los derechos reservados</h1>
+            <h1 class="white-text"><i class="material-icons md-18 white-text">copyright</i> 2017 Brumker todos los derechos reservados</h1>
           </div>
           <div class="col l4 offset-l2 m4 s12">
             <h1><a class="white-text" href="terminos-y-condiciones.html">Términos & condiciones</a></h1>
